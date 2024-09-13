@@ -1,0 +1,2029 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="956" failures="0" errors="0" time="10.664">
+  <testsuite name="canWeCheckCorrectAnswer" errors="0" failures="0" skipped="0" timestamp="2022-01-18T07:59:40" time="4.274" tests="27">
+    <testcase classname="canWeCheckCorrectAnswer should show no warning for simple reaction" name="canWeCheckCorrectAnswer should show no warning for simple reaction" time="0.004">
+    </testcase>
+    <testcase classname="canWeCheckCorrectAnswer multistep reaction" name="canWeCheckCorrectAnswer multistep reaction" time="0">
+    </testcase>
+    <testcase classname="canWeCheckCorrectAnswer unspecified stereo" name="canWeCheckCorrectAnswer unspecified stereo" time="0.001">
+    </testcase>
+    <testcase classname="canWeCheckCorrectAnswer should show no warning for for text answer" name="canWeCheckCorrectAnswer should show no warning for for text answer" time="0">
+    </testcase>
+    <testcase classname="isStructureAnswer should be true for structure answer" name="isStructureAnswer should be true for structure answer" time="0.001">
+    </testcase>
+    <testcase classname="isStructureAnswer should be false for not structure answer" name="isStructureAnswer should be false for not structure answer" time="0">
+    </testcase>
+    <testcase classname="isInInterval in interval" name="isInInterval in interval" time="0.001">
+    </testcase>
+    <testcase classname="isInInterval too low" name="isInInterval too low" time="0">
+    </testcase>
+    <testcase classname="isInInterval too high" name="isInInterval too high" time="0">
+    </testcase>
+    <testcase classname="isOrderChangeValid OK" name="isOrderChangeValid OK" time="0.001">
+    </testcase>
+    <testcase classname="isOrderChangeValid invalid" name="isOrderChangeValid invalid" time="0">
+    </testcase>
+    <testcase classname="changeExerciseOrderInStudyset validation error" name="changeExerciseOrderInStudyset validation error" time="0">
+    </testcase>
+    <testcase classname="changeExerciseOrderInStudyset 4-&gt;2" name="changeExerciseOrderInStudyset 4-&gt;2" time="0">
+    </testcase>
+    <testcase classname="changeExerciseOrderInStudyset 2-&gt;4" name="changeExerciseOrderInStudyset 2-&gt;4" time="0.001">
+    </testcase>
+    <testcase classname="isStudysetEditValid when name and description" name="isStudysetEditValid when name and description" time="0">
+    </testcase>
+    <testcase classname="isStudysetEditValid when only name" name="isStudysetEditValid when only name" time="0">
+    </testcase>
+    <testcase classname="isStudysetEditValid when only description" name="isStudysetEditValid when only description" time="0">
+    </testcase>
+    <testcase classname="isStudysetEditValid when name is undefined" name="isStudysetEditValid when name is undefined" time="0.001">
+    </testcase>
+    <testcase classname="isStudysetEditValid when name is NULL" name="isStudysetEditValid when name is NULL" time="0">
+    </testcase>
+    <testcase classname="isStudysetEditValid when name is empty" name="isStudysetEditValid when name is empty" time="0">
+    </testcase>
+    <testcase classname="isStudysetEditValid when state is PUBLISHED" name="isStudysetEditValid when state is PUBLISHED" time="0">
+    </testcase>
+    <testcase classname="isStudysetEditValid when state is FINISHED" name="isStudysetEditValid when state is FINISHED" time="0">
+    </testcase>
+    <testcase classname="isStudysetEditValid when state is DRAFT" name="isStudysetEditValid when state is DRAFT" time="0.001">
+    </testcase>
+    <testcase classname="isStudysetEditValid when state is NULL" name="isStudysetEditValid when state is NULL" time="0">
+    </testcase>
+    <testcase classname="isStudysetEditValid when state is undefined" name="isStudysetEditValid when state is undefined" time="0.001">
+    </testcase>
+    <testcase classname="isStudysetEditValid should reject when mixing edit modes" name="isStudysetEditValid should reject when mixing edit modes" time="0">
+    </testcase>
+    <testcase classname="isStudysetEditValid when extra field is present" name="isStudysetEditValid when extra field is present" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="getPlan" errors="0" failures="0" skipped="0" timestamp="2022-01-18T07:59:40" time="4.35" tests="24">
+    <testcase classname="getPlan getPlan PRO" name="getPlan getPlan PRO" time="0.003">
+    </testcase>
+    <testcase classname="getPlan getPlan Trial" name="getPlan getPlan Trial" time="0">
+    </testcase>
+    <testcase classname="getPlan getPlan Basic" name="getPlan getPlan Basic" time="0.001">
+    </testcase>
+    <testcase classname="formatSubscriptionInfo new customer" name="formatSubscriptionInfo new customer" time="0.001">
+    </testcase>
+    <testcase classname="formatSubscriptionInfo subscriptionInfo Basic" name="formatSubscriptionInfo subscriptionInfo Basic" time="0">
+    </testcase>
+    <testcase classname="formatSubscriptionInfo subscriptionInfo Trial" name="formatSubscriptionInfo subscriptionInfo Trial" time="0.001">
+    </testcase>
+    <testcase classname="formatSubscriptionInfo subscriptionInfo PRO 1" name="formatSubscriptionInfo subscriptionInfo PRO 1" time="0.001">
+    </testcase>
+    <testcase classname="formatSubscriptionInfo subscriptionInfo PRO 2" name="formatSubscriptionInfo subscriptionInfo PRO 2" time="0">
+    </testcase>
+    <testcase classname="setUserProPaymentData new customer" name="setUserProPaymentData new customer" time="0.289">
+    </testcase>
+    <testcase classname="setUserProPaymentData existing customer - transfer payment" name="setUserProPaymentData existing customer - transfer payment" time="0.091">
+    </testcase>
+    <testcase classname="setUserProPaymentData existing customer - card payment" name="setUserProPaymentData existing customer - card payment" time="0.047">
+    </testcase>
+    <testcase classname="setUserProPaymentData existing customer - before trial" name="setUserProPaymentData existing customer - before trial" time="0.028">
+    </testcase>
+    <testcase classname="setUserTrialPaymentData new customer" name="setUserTrialPaymentData new customer" time="0.02">
+    </testcase>
+    <testcase classname="setUserTrialPaymentData existing customer - pro" name="setUserTrialPaymentData existing customer - pro" time="0.028">
+    </testcase>
+    <testcase classname="setUserTrialPaymentData existing customer - before trial" name="setUserTrialPaymentData existing customer - before trial" time="0.023">
+    </testcase>
+    <testcase classname="updatePaymentDataFromSubscriptionSummary basic - existing" name="updatePaymentDataFromSubscriptionSummary basic - existing" time="0.029">
+    </testcase>
+    <testcase classname="updatePaymentDataFromSubscriptionSummary basic - not existing" name="updatePaymentDataFromSubscriptionSummary basic - not existing" time="0.017">
+    </testcase>
+    <testcase classname="updatePaymentDataFromSubscriptionSummary trial" name="updatePaymentDataFromSubscriptionSummary trial" time="0.026">
+    </testcase>
+    <testcase classname="updatePaymentDataFromSubscriptionSummary pro" name="updatePaymentDataFromSubscriptionSummary pro" time="0.022">
+    </testcase>
+    <testcase classname=" removePassedEndDates" name=" removePassedEndDates" time="0.034">
+    </testcase>
+    <testcase classname=" removeAllEndDates" name=" removeAllEndDates" time="0.031">
+    </testcase>
+    <testcase classname="getSubscriptionInfo basic - not existing" name="getSubscriptionInfo basic - not existing" time="0.016">
+    </testcase>
+    <testcase classname="getSubscriptionInfo basic - existing" name="getSubscriptionInfo basic - existing" time="0.02">
+    </testcase>
+    <testcase classname="getSubscriptionInfo pro" name="getSubscriptionInfo pro" time="0.014">
+    </testcase>
+  </testsuite>
+  <testsuite name="checkClassStatesOfPayer" errors="0" failures="0" skipped="0" timestamp="2022-01-18T07:59:40" time="4.436" tests="18">
+    <testcase classname="checkClassStatesOfPayer checkClassStatesOfPayer - classes on other plan" name="checkClassStatesOfPayer checkClassStatesOfPayer - classes on other plan" time="0.362">
+    </testcase>
+    <testcase classname="checkClassStatesOfPayer subscription limit OK" name="checkClassStatesOfPayer subscription limit OK" time="0.056">
+    </testcase>
+    <testcase classname="checkClassStatesOfPayer subscription limit exceeded" name="checkClassStatesOfPayer subscription limit exceeded" time="0.058">
+    </testcase>
+    <testcase classname="isStudygroupEditValid when name and description" name="isStudygroupEditValid when name and description" time="0.035">
+    </testcase>
+    <testcase classname="isStudygroupEditValid when only name" name="isStudygroupEditValid when only name" time="0.023">
+    </testcase>
+    <testcase classname="isStudygroupEditValid when only description" name="isStudygroupEditValid when only description" time="0.017">
+    </testcase>
+    <testcase classname="isStudygroupEditValid when name is undefined" name="isStudygroupEditValid when name is undefined" time="0.015">
+    </testcase>
+    <testcase classname="isStudygroupEditValid when name is NULL" name="isStudygroupEditValid when name is NULL" time="0.016">
+    </testcase>
+    <testcase classname="isStudygroupEditValid when name is empty" name="isStudygroupEditValid when name is empty" time="0.019">
+    </testcase>
+    <testcase classname="isStudygroupEditValid when extra field is present" name="isStudygroupEditValid when extra field is present" time="0.01">
+    </testcase>
+    <testcase classname="convertSubmissionSummariesToExportable convert submission for export" name="convertSubmissionSummariesToExportable convert submission for export" time="0.033">
+    </testcase>
+    <testcase classname="assessmentSubmissionCompareFunction One user has no last name" name="assessmentSubmissionCompareFunction One user has no last name" time="0.015">
+    </testcase>
+    <testcase classname="assessmentSubmissionCompareFunction No last name, one user has no name" name="assessmentSubmissionCompareFunction No last name, one user has no name" time="0.013">
+    </testcase>
+    <testcase classname="assessmentSubmissionCompareFunction different last name" name="assessmentSubmissionCompareFunction different last name" time="0.016">
+    </testcase>
+    <testcase classname="assessmentSubmissionCompareFunction same last name, different first name" name="assessmentSubmissionCompareFunction same last name, different first name" time="0.018">
+    </testcase>
+    <testcase classname="assessmentSubmissionCompareFunction same name, different email" name="assessmentSubmissionCompareFunction same name, different email" time="0.015">
+    </testcase>
+    <testcase classname="assessmentSubmissionCompareFunction same name, same email" name="assessmentSubmissionCompareFunction same name, same email" time="0.014">
+    </testcase>
+    <testcase classname="assessmentSubmissionCompareFunction testing compare when sorting array" name="assessmentSubmissionCompareFunction testing compare when sorting array" time="0.025">
+    </testcase>
+  </testsuite>
+  <testsuite name="getQuizzesAction" errors="0" failures="0" skipped="0" timestamp="2022-01-18T07:59:40" time="4.377" tests="10">
+    <testcase classname="getQuizzesAction should throw error when user is not teacher" name="getQuizzesAction should throw error when user is not teacher" time="0.332">
+    </testcase>
+    <testcase classname="getQuizzesAction Teacher course quizzes" name="getQuizzesAction Teacher course quizzes" time="0.051">
+    </testcase>
+    <testcase classname="getQuizzesAction Teacher with no quizzes" name="getQuizzesAction Teacher with no quizzes" time="0.023">
+    </testcase>
+    <testcase classname="getQuizzesAction Teacher own quizzes, other context" name="getQuizzesAction Teacher own quizzes, other context" time="0.022">
+    </testcase>
+    <testcase classname="addOrRemoveQuizInCourseAction should throw error when user is not teacher" name="addOrRemoveQuizInCourseAction should throw error when user is not teacher" time="0.022">
+    </testcase>
+    <testcase classname="addOrRemoveQuizInCourseAction should throw error when studyset does not exist" name="addOrRemoveQuizInCourseAction should throw error when studyset does not exist" time="0.04">
+    </testcase>
+    <testcase classname="addOrRemoveQuizInCourseAction should throw error when not owner of studyset" name="addOrRemoveQuizInCourseAction should throw error when not owner of studyset" time="0.026">
+    </testcase>
+    <testcase classname="addOrRemoveQuizInCourseAction successful quiz share" name="addOrRemoveQuizInCourseAction successful quiz share" time="0.035">
+    </testcase>
+    <testcase classname="addOrRemoveQuizInCourseAction cannot unshare linked quiz" name="addOrRemoveQuizInCourseAction cannot unshare linked quiz" time="0.026">
+    </testcase>
+    <testcase classname="addOrRemoveQuizInCourseAction successful link unshare" name="addOrRemoveQuizInCourseAction successful link unshare" time="0.031">
+    </testcase>
+  </testsuite>
+  <testsuite name="checkAnswerAction" errors="0" failures="0" skipped="0" timestamp="2022-01-18T07:59:40" time="4.715" tests="14">
+    <testcase classname="checkAnswerAction Wrong submissionId" name="checkAnswerAction Wrong submissionId" time="0.321">
+    </testcase>
+    <testcase classname="checkAnswerAction Not owned submission" name="checkAnswerAction Not owned submission" time="0.045">
+    </testcase>
+    <testcase classname="checkAnswerAction Already submitted submission" name="checkAnswerAction Already submitted submission" time="0.024">
+    </testcase>
+    <testcase classname="checkAnswerAction Assessment submission cannot be checked" name="checkAnswerAction Assessment submission cannot be checked" time="0.055">
+    </testcase>
+    <testcase classname="checkAnswerAction Wrong exerciseId" name="checkAnswerAction Wrong exerciseId" time="0.026">
+    </testcase>
+    <testcase classname="checkAnswerAction Previous answer was correct" name="checkAnswerAction Previous answer was correct" time="0.032">
+    </testcase>
+    <testcase classname="checkAnswerAction No more attempts, cannot submit new results" name="checkAnswerAction No more attempts, cannot submit new results" time="0.064">
+    </testcase>
+    <testcase classname="checkAnswerAction Check text answer - correct" name="checkAnswerAction Check text answer - correct" time="0.085">
+    </testcase>
+    <testcase classname="checkAnswerAction Check text answer - wrong" name="checkAnswerAction Check text answer - wrong" time="0.039">
+    </testcase>
+    <testcase classname="checkAnswerAction Check MC answer - correct" name="checkAnswerAction Check MC answer - correct" time="0.038">
+    </testcase>
+    <testcase classname="checkAnswerAction Check MC answer - wrong" name="checkAnswerAction Check MC answer - wrong" time="0.045">
+    </testcase>
+    <testcase classname="checkAnswerAction Submit last answer" name="checkAnswerAction Submit last answer" time="0.034">
+    </testcase>
+    <testcase classname="checkAnswerAction Submit LTI answer" name="checkAnswerAction Submit LTI answer" time="0.04">
+    </testcase>
+    <testcase classname="checkAnswerAction Submit last LTI answer" name="checkAnswerAction Submit last LTI answer" time="0.046">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2022-01-18T07:59:40" time="4.812" tests="49">
+    <testcase classname=" test creating and retrieving a study group" name=" test creating and retrieving a study group" time="0.364">
+    </testcase>
+    <testcase classname="findIfStudygroupContainsStudyset in studygroup" name="findIfStudygroupContainsStudyset in studygroup" time="0.036">
+    </testcase>
+    <testcase classname="findIfStudygroupContainsStudyset not in studygroup" name="findIfStudygroupContainsStudyset not in studygroup" time="0.019">
+    </testcase>
+    <testcase classname=" test addUser" name=" test addUser" time="0.034">
+    </testcase>
+    <testcase classname=" test removeUser" name=" test removeUser" time="0.021">
+    </testcase>
+    <testcase classname=" test changeRoleOfUser" name=" test changeRoleOfUser" time="0.025">
+    </testcase>
+    <testcase classname="findSummariesOfPracticesOfStudygroup no userId in params" name="findSummariesOfPracticesOfStudygroup no userId in params" time="0.027">
+    </testcase>
+    <testcase classname="findSummariesOfPracticesOfStudygroup userId in params - with submission" name="findSummariesOfPracticesOfStudygroup userId in params - with submission" time="0.028">
+    </testcase>
+    <testcase classname="findSummariesOfPracticesOfStudygroup userId in params - without submission" name="findSummariesOfPracticesOfStudygroup userId in params - without submission" time="0.026">
+    </testcase>
+    <testcase classname=" test getStudysetIdsOfStudygroupById" name=" test getStudysetIdsOfStudygroupById" time="0.018">
+    </testcase>
+    <testcase classname=" test listStudysetsOfStudygroup" name=" test listStudysetsOfStudygroup" time="0.019">
+    </testcase>
+    <testcase classname="findStudygroupOfUser teacher classes" name="findStudygroupOfUser teacher classes" time="0.019">
+    </testcase>
+    <testcase classname="findStudygroupOfUser student classes" name="findStudygroupOfUser student classes" time="0.031">
+    </testcase>
+    <testcase classname="findStudygroupOfUser student and pending classes" name="findStudygroupOfUser student and pending classes" time="0.024">
+    </testcase>
+    <testcase classname="findStudygroupOfUser teacher classes of student003" name="findStudygroupOfUser teacher classes of student003" time="0.035">
+    </testcase>
+    <testcase classname="findStudygroupOfUser student classes of student003" name="findStudygroupOfUser student classes of student003" time="0.035">
+    </testcase>
+    <testcase classname="findStudygroupOfUser no classes" name="findStudygroupOfUser no classes" time="0.016">
+    </testcase>
+    <testcase classname=" findStudygroupsOfUserForStateUpdate student" name=" findStudygroupsOfUserForStateUpdate student" time="0.018">
+    </testcase>
+    <testcase classname=" findStudygroupsOfUserForStateUpdate teacher" name=" findStudygroupsOfUserForStateUpdate teacher" time="0.018">
+    </testcase>
+    <testcase classname=" findTeacherStudygroupsOfUser" name=" findTeacherStudygroupsOfUser" time="0.016">
+    </testcase>
+    <testcase classname=" test add studyset " name=" test add studyset " time="0.021">
+    </testcase>
+    <testcase classname=" test remove studyset " name=" test remove studyset " time="0.026">
+    </testcase>
+    <testcase classname=" test add submissions to a group" name=" test add submissions to a group" time="0.022">
+    </testcase>
+    <testcase classname=" test getSubmissionsOfStudygroup" name=" test getSubmissionsOfStudygroup" time="0.037">
+    </testcase>
+    <testcase classname=" test getUserRole" name=" test getUserRole" time="0.012">
+    </testcase>
+    <testcase classname=" test changeStudygroupApproval " name=" test changeStudygroupApproval " time="0.014">
+    </testcase>
+    <testcase classname=" test setClassState" name=" test setClassState" time="0.014">
+    </testcase>
+    <testcase classname=" test setClassStateAndPaymentData " name=" test setClassStateAndPaymentData " time="0.015">
+    </testcase>
+    <testcase classname="getStudentNumberOfTeacher Pro subscriber, with active class" name="getStudentNumberOfTeacher Pro subscriber, with active class" time="0.066">
+    </testcase>
+    <testcase classname="getStudentNumberOfTeacher No active classes" name="getStudentNumberOfTeacher No active classes" time="0.017">
+    </testcase>
+    <testcase classname="getStudentNumberOfPayer Pro subscriber, with active class" name="getStudentNumberOfPayer Pro subscriber, with active class" time="0.061">
+    </testcase>
+    <testcase classname="getStudentNumberOfPayer No active classes" name="getStudentNumberOfPayer No active classes" time="0.013">
+    </testcase>
+    <testcase classname="getStudentListOfPayer Pro subscriber, with active class" name="getStudentListOfPayer Pro subscriber, with active class" time="0.058">
+    </testcase>
+    <testcase classname="getStudentListOfPayer No active classes" name="getStudentListOfPayer No active classes" time="0.016">
+    </testcase>
+    <testcase classname="calculateStudentNumberAfterActivation Pro subscriber, with active class" name="calculateStudentNumberAfterActivation Pro subscriber, with active class" time="0.015">
+    </testcase>
+    <testcase classname="calculateStudentNumberAfterActivation No active classes" name="calculateStudentNumberAfterActivation No active classes" time="0.017">
+    </testcase>
+    <testcase classname="calculateStudentNumberAfterActivation No students" name="calculateStudentNumberAfterActivation No students" time="0.016">
+    </testcase>
+    <testcase classname="getManagedClassesForStateUpdate Trial" name="getManagedClassesForStateUpdate Trial" time="0.071">
+    </testcase>
+    <testcase classname="getManagedClassesForStateUpdate Pro" name="getManagedClassesForStateUpdate Pro" time="0.062">
+    </testcase>
+    <testcase classname="getManagedClassList Trial" name="getManagedClassList Trial" time="0.05">
+    </testcase>
+    <testcase classname="getManagedClassList Pro" name="getManagedClassList Pro" time="0.062">
+    </testcase>
+    <testcase classname=" setClassHasUsedTrial" name=" setClassHasUsedTrial" time="0.022">
+    </testcase>
+    <testcase classname=" findAllTeacherIds" name=" findAllTeacherIds" time="0.017">
+    </testcase>
+    <testcase classname=" findAllUserIds" name=" findAllUserIds" time="0.036">
+    </testcase>
+    <testcase classname=" findFirstTeacherOfStudygroups" name=" findFirstTeacherOfStudygroups" time="0.018">
+    </testcase>
+    <testcase classname=" test deleteStudygroup" name=" test deleteStudygroup" time="0.022">
+    </testcase>
+    <testcase classname=" test removeSubmission" name=" test removeSubmission" time="0.022">
+    </testcase>
+    <testcase classname="getPracticeStudygroupsOfStudyset in studygroups as practice" name="getPracticeStudygroupsOfStudyset in studygroups as practice" time="0.018">
+    </testcase>
+    <testcase classname="getPracticeStudygroupsOfStudyset no studygroups" name="getPracticeStudygroupsOfStudyset no studygroups" time="0.017">
+    </testcase>
+  </testsuite>
+  <testsuite name="getPracticeState" errors="0" failures="0" skipped="0" timestamp="2022-01-18T07:59:40" time="5.085" tests="28">
+    <testcase classname="getPracticeState should throw error when user is teacher" name="getPracticeState should throw error when user is teacher" time="0.275">
+    </testcase>
+    <testcase classname="getPracticeState should throw error when activity is not linked" name="getPracticeState should throw error when activity is not linked" time="0.044">
+    </testcase>
+    <testcase classname="getPracticeState student has in progress submission" name="getPracticeState student has in progress submission" time="0.027">
+    </testcase>
+    <testcase classname="getPracticeState student has no submission" name="getPracticeState student has no submission" time="0.021">
+    </testcase>
+    <testcase classname="getPracticeState student has submitted submission" name="getPracticeState student has submitted submission" time="0.032">
+    </testcase>
+    <testcase classname="handlePracticeCompletion should throw error when user is teacher" name="handlePracticeCompletion should throw error when user is teacher" time="0.029">
+    </testcase>
+    <testcase classname="handlePracticeCompletion should throw error when activity is not linked" name="handlePracticeCompletion should throw error when activity is not linked" time="0.024">
+    </testcase>
+    <testcase classname="handlePracticeCompletion student has in progress submission" name="handlePracticeCompletion student has in progress submission" time="0.024">
+    </testcase>
+    <testcase classname="handlePracticeCompletion student has no submission" name="handlePracticeCompletion student has no submission" time="0.063">
+    </testcase>
+    <testcase classname="handlePracticeCompletion student has submitted submission" name="handlePracticeCompletion student has submitted submission" time="0.028">
+    </testcase>
+    <testcase classname="handlePracticeSubmission should throw error when user is teacher" name="handlePracticeSubmission should throw error when user is teacher" time="0.032">
+    </testcase>
+    <testcase classname="handlePracticeSubmission should throw error when activity is not linked" name="handlePracticeSubmission should throw error when activity is not linked" time="0.02">
+    </testcase>
+    <testcase classname="handlePracticeSubmission should throw error when student has no in progress submission" name="handlePracticeSubmission should throw error when student has no in progress submission" time="0.022">
+    </testcase>
+    <testcase classname="handlePracticeSubmission student has in progress submission - incorrect answer length" name="handlePracticeSubmission student has in progress submission - incorrect answer length" time="0.045">
+    </testcase>
+    <testcase classname="handlePracticeSubmission student has in progress submission - submits correct answer" name="handlePracticeSubmission student has in progress submission - submits correct answer" time="0.056">
+    </testcase>
+    <testcase classname="handlePracticeSubmission student has in progress submission - submits wrong answer" name="handlePracticeSubmission student has in progress submission - submits wrong answer" time="0.053">
+    </testcase>
+    <testcase classname="loadSubmissionForPracticeCompletionAction submission does not exist" name="loadSubmissionForPracticeCompletionAction submission does not exist" time="0.026">
+    </testcase>
+    <testcase classname="loadSubmissionForPracticeCompletionAction not owner of submission" name="loadSubmissionForPracticeCompletionAction not owner of submission" time="0.022">
+    </testcase>
+    <testcase classname="loadSubmissionForPracticeCompletionAction owner of submission" name="loadSubmissionForPracticeCompletionAction owner of submission" time="0.023">
+    </testcase>
+    <testcase classname="loadPracticeResultsAction teacher, submissions" name="loadPracticeResultsAction teacher, submissions" time="0.045">
+    </testcase>
+    <testcase classname="loadPracticeResultsAction teacher, no submissions" name="loadPracticeResultsAction teacher, no submissions" time="0.037">
+    </testcase>
+    <testcase classname="loadPracticeResultsAction student, no submissions" name="loadPracticeResultsAction student, no submissions" time="0.026">
+    </testcase>
+    <testcase classname="loadPracticeResultsAction student with submissions" name="loadPracticeResultsAction student with submissions" time="0.023">
+    </testcase>
+    <testcase classname="loadSubmissionForResultsAction submissions does not exist" name="loadSubmissionForResultsAction submissions does not exist" time="0.02">
+    </testcase>
+    <testcase classname="loadSubmissionForResultsAction contextId does not match" name="loadSubmissionForResultsAction contextId does not match" time="0.03">
+    </testcase>
+    <testcase classname="loadSubmissionForResultsAction student not owner" name="loadSubmissionForResultsAction student not owner" time="0.022">
+    </testcase>
+    <testcase classname="loadSubmissionForResultsAction student owner" name="loadSubmissionForResultsAction student owner" time="0.027">
+    </testcase>
+    <testcase classname="loadSubmissionForResultsAction teacher" name="loadSubmissionForResultsAction teacher" time="0.029">
+    </testcase>
+  </testsuite>
+  <testsuite name="getSubmissionsAction" errors="0" failures="0" skipped="0" timestamp="2022-01-18T07:59:40" time="5.214" tests="11">
+    <testcase classname="getSubmissionsAction should return all submitted submissions of a user" name="getSubmissionsAction should return all submitted submissions of a user" time="0.404">
+    </testcase>
+    <testcase classname="getSubmissionsAction should call errorHandling if paramters are not provided properly" name="getSubmissionsAction should call errorHandling if paramters are not provided properly" time="0.029">
+    </testcase>
+    <testcase classname="createSubmissionAction PUBLISHED set" name="createSubmissionAction PUBLISHED set" time="0.079">
+    </testcase>
+    <testcase classname="createSubmissionAction FINISHED set owner" name="createSubmissionAction FINISHED set owner" time="0.036">
+    </testcase>
+    <testcase classname="createSubmissionAction FINISHED set not owner - error" name="createSubmissionAction FINISHED set not owner - error" time="0.075">
+    </testcase>
+    <testcase classname="createSubmissionAction DRAFT set - error" name="createSubmissionAction DRAFT set - error" time="0.027">
+    </testcase>
+    <testcase classname="modifyScoreAction not teacher" name="modifyScoreAction not teacher" time="0.053">
+    </testcase>
+    <testcase classname="modifyScoreAction teacher, not assessment" name="modifyScoreAction teacher, not assessment" time="0.025">
+    </testcase>
+    <testcase classname="modifyScoreAction teacher, assessment not closed" name="modifyScoreAction teacher, assessment not closed" time="0.023">
+    </testcase>
+    <testcase classname="modifyScoreAction teacher, closed assessment" name="modifyScoreAction teacher, closed assessment" time="0.072">
+    </testcase>
+    <testcase classname="closeSubmissionAction  should return submission" name="closeSubmissionAction  should return submission" time="0.028">
+    </testcase>
+  </testsuite>
+  <testsuite name="createSubscriptionAction" errors="0" failures="0" skipped="2" timestamp="2022-01-18T07:59:40" time="5.325" tests="34">
+    <testcase classname="createSubscriptionAction should call paymentUtils.getCustomerStripeId" name="createSubscriptionAction should call paymentUtils.getCustomerStripeId" time="0.278">
+    </testcase>
+    <testcase classname="createSubscriptionAction should call paymentApiCalls.updateCustomer when user has subscription" name="createSubscriptionAction should call paymentApiCalls.updateCustomer when user has subscription" time="0.029">
+    </testcase>
+    <testcase classname="createSubscriptionAction should call paymentUtils.createAndPersistCustomer when user has no subscription" name="createSubscriptionAction should call paymentUtils.createAndPersistCustomer when user has no subscription" time="0.024">
+    </testcase>
+    <testcase classname="createSubscriptionAction should call paymentUtils.getSubscriptionSummariesOfUser" name="createSubscriptionAction should call paymentUtils.getSubscriptionSummariesOfUser" time="0.037">
+    </testcase>
+    <testcase classname="createSubscriptionAction should call paymentApiCalls.createSubscription" name="createSubscriptionAction should call paymentApiCalls.createSubscription" time="0.022">
+    </testcase>
+    <testcase classname="createSubscriptionAction should fail when no student is given" name="createSubscriptionAction should fail when no student is given" time="0.036">
+    </testcase>
+    <testcase classname="createSubscriptionAction should fail when too less student is given" name="createSubscriptionAction should fail when too less student is given" time="0.014">
+    </testcase>
+    <testcase classname="createSubscriptionAction should fail when no month is given" name="createSubscriptionAction should fail when no month is given" time="0.027">
+    </testcase>
+    <testcase classname="createSubscriptionAction should fail when too less month is given" name="createSubscriptionAction should fail when too less month is given" time="0.021">
+    </testcase>
+    <testcase classname="createSubscriptionAction should fail when too many month is given" name="createSubscriptionAction should fail when too many month is given" time="0.017">
+    </testcase>
+    <testcase classname="createSubscriptionAction should return subscription when new user" name="createSubscriptionAction should return subscription when new user" time="0.021">
+    </testcase>
+    <testcase classname="createSubscriptionAction should return subscription when user already has one" name="createSubscriptionAction should return subscription when user already has one" time="0.02">
+    </testcase>
+    <testcase classname="getTaxRateAction should call paymentApiCall.getTaxInfo" name="getTaxRateAction should call paymentApiCall.getTaxInfo" time="0.018">
+    </testcase>
+    <testcase classname="getTaxRateAction should return tax rate" name="getTaxRateAction should return tax rate" time="0.026">
+    </testcase>
+    <testcase classname="startTrialAction should call paymentUtils.getCustomerStripeId" name="startTrialAction should call paymentUtils.getCustomerStripeId" time="0.024">
+    </testcase>
+    <testcase classname="startTrialAction should fail when Stripe ID is found" name="startTrialAction should fail when Stripe ID is found" time="0.027">
+    </testcase>
+    <testcase classname="startTrialAction should call paymentApiCalls.createCustomer when no Stripe ID" name="startTrialAction should call paymentApiCalls.createCustomer when no Stripe ID" time="0.013">
+    </testcase>
+    <testcase classname="startTrialAction should call paymentApiCalls.createSubscription when no Stripe ID" name="startTrialAction should call paymentApiCalls.createSubscription when no Stripe ID" time="0.026">
+    </testcase>
+    <testcase classname="startTrialAction should call paymentApiCalls.persistStripeId when no Stripe ID" name="startTrialAction should call paymentApiCalls.persistStripeId when no Stripe ID" time="0.017">
+    </testcase>
+    <testcase classname="startTrialAction should call paymentUtils.getTrialSummary when no Stripe ID" name="startTrialAction should call paymentUtils.getTrialSummary when no Stripe ID" time="0.019">
+    </testcase>
+    <testcase classname="startTrialAction should call paymentUtils.formatSubscriptionInfo when no Stripe ID" name="startTrialAction should call paymentUtils.formatSubscriptionInfo when no Stripe ID" time="0.017">
+    </testcase>
+    <testcase classname="startTrialAction should call paymentUtils.setUserTrialPaymentData when no Stripe ID" name="startTrialAction should call paymentUtils.setUserTrialPaymentData when no Stripe ID" time="0.017">
+    </testcase>
+    <testcase classname="getSubscriptionSummariesAction should call paymentutils.getCustomerStripeId" name="getSubscriptionSummariesAction should call paymentutils.getCustomerStripeId" time="0.019">
+    </testcase>
+    <testcase classname="getSubscriptionSummariesAction should call paymentApiCalls.getSubscriptionSummaries" name="getSubscriptionSummariesAction should call paymentApiCalls.getSubscriptionSummaries" time="0.019">
+    </testcase>
+    <testcase classname="getSubscriptionSummariesAction should call paymentutils.formatSubscriptionInfo" name="getSubscriptionSummariesAction should call paymentutils.formatSubscriptionInfo" time="0.032">
+    </testcase>
+    <testcase classname="getSubscriptionSummariesAction should call paymentutils.updatePaymentDataFromSubscriptionSummary" name="getSubscriptionSummariesAction should call paymentutils.updatePaymentDataFromSubscriptionSummary" time="0.053">
+    </testcase>
+    <testcase classname="getSubscriptionSummariesAction should call studygroupUtils.checkClassStatesOfPayer" name="getSubscriptionSummariesAction should call studygroupUtils.checkClassStatesOfPayer" time="0.023">
+    </testcase>
+    <testcase classname="getSubscriptionSummariesAction should call studygroupDAO.getStudentNumberOfTeacher" name="getSubscriptionSummariesAction should call studygroupDAO.getStudentNumberOfTeacher" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="getSubscriptionSummariesAction should call studygroupDAO.getStudentNumberOfPayer" name="getSubscriptionSummariesAction should call studygroupDAO.getStudentNumberOfPayer" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="getSubscriptionSummariesAction should return summary object" name="getSubscriptionSummariesAction should return summary object" time="0.019">
+    </testcase>
+    <testcase classname="getInvoicesAction should call paymentutils.getCustomerStripeId" name="getInvoicesAction should call paymentutils.getCustomerStripeId" time="0.017">
+    </testcase>
+    <testcase classname="getInvoicesAction should call paymentApiCalls.getInvoices" name="getInvoicesAction should call paymentApiCalls.getInvoices" time="0.016">
+    </testcase>
+    <testcase classname="getInvoicesAction should return invoice list" name="getInvoicesAction should return invoice list" time="0.021">
+    </testcase>
+    <testcase classname="getStripeKeyAction should return Stripe&apos;s public API key" name="getStripeKeyAction should return Stripe&apos;s public API key" time="0.017">
+    </testcase>
+  </testsuite>
+  <testsuite name="studygroupAndRoleCheck" errors="0" failures="0" skipped="0" timestamp="2022-01-18T07:59:40" time="5.47" tests="38">
+    <testcase classname="studygroupAndRoleCheck should return an appropriate error when the studygroup id is invalid" name="studygroupAndRoleCheck should return an appropriate error when the studygroup id is invalid" time="0.366">
+    </testcase>
+    <testcase classname="studygroupAndRoleCheck should return an appropriate error when the user is not a member of the studygroup" name="studygroupAndRoleCheck should return an appropriate error when the user is not a member of the studygroup" time="0.07">
+    </testcase>
+    <testcase classname="studygroupAndRoleCheck should return an appropriate error when the user&apos;s membership is pending" name="studygroupAndRoleCheck should return an appropriate error when the user&apos;s membership is pending" time="0.031">
+    </testcase>
+    <testcase classname="studygroupAndRoleCheck should resolve successfully when the user is a student in the studygroup" name="studygroupAndRoleCheck should resolve successfully when the user is a student in the studygroup" time="0.034">
+    </testcase>
+    <testcase classname="studygroupAndRoleCheck should resolve successfully when the user is a teacher in the studygroup" name="studygroupAndRoleCheck should resolve successfully when the user is a teacher in the studygroup" time="0.028">
+    </testcase>
+    <testcase classname="checkStudygroupAndRole should throw an appropriate error when the studygroup id is invalid" name="checkStudygroupAndRole should throw an appropriate error when the studygroup id is invalid" time="0.065">
+    </testcase>
+    <testcase classname="checkStudygroupAndRole should throw an appropriate error when the user is not a member of the studygroup" name="checkStudygroupAndRole should throw an appropriate error when the user is not a member of the studygroup" time="0.026">
+    </testcase>
+    <testcase classname="checkStudygroupAndRole should throw an appropriate error when the user&apos;s membership is pending" name="checkStudygroupAndRole should throw an appropriate error when the user&apos;s membership is pending" time="0.027">
+    </testcase>
+    <testcase classname="checkStudygroupAndRole should resolve successfully when the user is a student in the studygroup" name="checkStudygroupAndRole should resolve successfully when the user is a student in the studygroup" time="0.034">
+    </testcase>
+    <testcase classname="checkStudygroupAndRole should resolve successfully when the user is a teacher in the studygroup" name="checkStudygroupAndRole should resolve successfully when the user is a teacher in the studygroup" time="0.036">
+    </testcase>
+    <testcase classname="checkStudygroupAndMembership should throw an appropriate error when the user&apos;s membership is pending" name="checkStudygroupAndMembership should throw an appropriate error when the user&apos;s membership is pending" time="0.027">
+    </testcase>
+    <testcase classname="checkStudygroupAndMembership should resolve successfully when the user is a student in the studygroup" name="checkStudygroupAndMembership should resolve successfully when the user is a student in the studygroup" time="0.031">
+    </testcase>
+    <testcase classname="checkStudygroupAndMembership should resolve successfully when the user is a teacher in the studygroup" name="checkStudygroupAndMembership should resolve successfully when the user is a teacher in the studygroup" time="0.027">
+    </testcase>
+    <testcase classname="checkStudygroupAndTeacherStatus should return an appropriate error when the user&apos;s membership is pending" name="checkStudygroupAndTeacherStatus should return an appropriate error when the user&apos;s membership is pending" time="0.038">
+    </testcase>
+    <testcase classname="checkStudygroupAndTeacherStatus should resolve successfully when the user is a student in the studygroup" name="checkStudygroupAndTeacherStatus should resolve successfully when the user is a student in the studygroup" time="0.03">
+    </testcase>
+    <testcase classname="checkStudygroupAndTeacherStatus should resolve successfully when the user is a teacher in the studygroup" name="checkStudygroupAndTeacherStatus should resolve successfully when the user is a teacher in the studygroup" time="0.026">
+    </testcase>
+    <testcase classname="assertTeacher should throw an error when the role indicates a student" name="assertTeacher should throw an error when the role indicates a student" time="0.016">
+    </testcase>
+    <testcase classname="assertTeacher should not throw an error when the role indicates a teacher" name="assertTeacher should not throw an error when the role indicates a teacher" time="0.018">
+    </testcase>
+    <testcase classname="checkStudygroupTeacherOrPayerStatus should throw an appropriate error when the studygroup id is invalid" name="checkStudygroupTeacherOrPayerStatus should throw an appropriate error when the studygroup id is invalid" time="0.017">
+    </testcase>
+    <testcase classname="checkStudygroupTeacherOrPayerStatus should return an appropriate error when the user is not a member of the studygroup" name="checkStudygroupTeacherOrPayerStatus should return an appropriate error when the user is not a member of the studygroup" time="0.041">
+    </testcase>
+    <testcase classname="checkStudygroupTeacherOrPayerStatus should throw an appropriate error when the user&apos;s membership is pending" name="checkStudygroupTeacherOrPayerStatus should throw an appropriate error when the user&apos;s membership is pending" time="0.028">
+    </testcase>
+    <testcase classname="checkStudygroupTeacherOrPayerStatus should resolve successfully when the user is a student in the studygroup" name="checkStudygroupTeacherOrPayerStatus should resolve successfully when the user is a student in the studygroup" time="0.018">
+    </testcase>
+    <testcase classname="checkStudygroupTeacherOrPayerStatus should resolve successfully when the user is a teacher in the studygroup" name="checkStudygroupTeacherOrPayerStatus should resolve successfully when the user is a teacher in the studygroup" time="0.016">
+    </testcase>
+    <testcase classname="checkStudygroupTeacherOrPayerStatus payer - managed modal" name="checkStudygroupTeacherOrPayerStatus payer - managed modal" time="0.03">
+    </testcase>
+    <testcase classname="checkStudygroupTeacherOrPayerStatus payer - not member, not managed modal" name="checkStudygroupTeacherOrPayerStatus payer - not member, not managed modal" time="0.031">
+    </testcase>
+    <testcase classname="checkStudysetOwnership should return an appropriate error when the studyset id is invalid" name="checkStudysetOwnership should return an appropriate error when the studyset id is invalid" time="0.029">
+    </testcase>
+    <testcase classname="checkStudysetOwnership should return an appropriate error when the studyset is a draft" name="checkStudysetOwnership should return an appropriate error when the studyset is a draft" time="0.021">
+    </testcase>
+    <testcase classname="checkStudysetOwnership should return an appropriate error when the studyset is not owned" name="checkStudysetOwnership should return an appropriate error when the studyset is not owned" time="0.018">
+    </testcase>
+    <testcase classname="checkStudysetOwnership should resolve successfully when everything is fine" name="checkStudysetOwnership should resolve successfully when everything is fine" time="0.025">
+    </testcase>
+    <testcase classname="assertStudysetOwnership should throw an appropriate error when the studyset id is invalid" name="assertStudysetOwnership should throw an appropriate error when the studyset id is invalid" time="0.02">
+    </testcase>
+    <testcase classname="assertStudysetOwnership should throw an appropriate error when the studyset is a draft" name="assertStudysetOwnership should throw an appropriate error when the studyset is a draft" time="0.017">
+    </testcase>
+    <testcase classname="assertStudysetOwnership should throw an appropriate error when the studyset is not owned" name="assertStudysetOwnership should throw an appropriate error when the studyset is not owned" time="0.021">
+    </testcase>
+    <testcase classname="assertStudysetOwnership should resolve successfully when everything is fine" name="assertStudysetOwnership should resolve successfully when everything is fine" time="0.041">
+    </testcase>
+    <testcase classname="checkAddedStudyset should throw an appropriate error when the studyset id is invalid" name="checkAddedStudyset should throw an appropriate error when the studyset id is invalid" time="0.016">
+    </testcase>
+    <testcase classname="checkAddedStudyset should throw an appropriate error when the studyset is a draft" name="checkAddedStudyset should throw an appropriate error when the studyset is a draft" time="0.018">
+    </testcase>
+    <testcase classname="checkAddedStudyset should throw an appropriate error when the studyset is not owned" name="checkAddedStudyset should throw an appropriate error when the studyset is not owned" time="0.018">
+    </testcase>
+    <testcase classname="checkAddedStudyset should throw an appropriate error when the studyset is already in the class" name="checkAddedStudyset should throw an appropriate error when the studyset is already in the class" time="0.033">
+    </testcase>
+    <testcase classname="checkAddedStudyset should resolve successfully when everything is fine" name="checkAddedStudyset should resolve successfully when everything is fine" time="0.018">
+    </testcase>
+  </testsuite>
+  <testsuite name="getImageAction" errors="0" failures="0" skipped="0" timestamp="2022-01-18T07:59:40" time="5.711" tests="37">
+    <testcase classname="getImageAction permission OK, image exists" name="getImageAction permission OK, image exists" time="0.294">
+    </testcase>
+    <testcase classname="getImageAction permission OK, no image in exercise" name="getImageAction permission OK, no image in exercise" time="0.05">
+    </testcase>
+    <testcase classname="getImageAction permission OK, no such exercise" name="getImageAction permission OK, no such exercise" time="0.059">
+    </testcase>
+    <testcase classname="getImageAction permission not OK" name="getImageAction permission not OK" time="0.058">
+    </testcase>
+    <testcase classname="getCompletionImageAction practice OK" name="getCompletionImageAction practice OK" time="0.047">
+    </testcase>
+    <testcase classname="getCompletionImageAction practice not OK" name="getCompletionImageAction practice not OK" time="0.068">
+    </testcase>
+    <testcase classname="getCompletionImageAction assessment OK" name="getCompletionImageAction assessment OK" time="0.061">
+    </testcase>
+    <testcase classname="getCompletionImageAction assessment not OK - not started" name="getCompletionImageAction assessment not OK - not started" time="0.045">
+    </testcase>
+    <testcase classname="getCompletionImageAction assessment not OK - teacher" name="getCompletionImageAction assessment not OK - teacher" time="0.034">
+    </testcase>
+    <testcase classname="getLtiCompletionImageAction practice OK" name="getLtiCompletionImageAction practice OK" time="0.043">
+    </testcase>
+    <testcase classname="getLtiCompletionImageAction practice, no image" name="getLtiCompletionImageAction practice, no image" time="0.03">
+    </testcase>
+    <testcase classname="getLtiCompletionImageAction practice, teacher" name="getLtiCompletionImageAction practice, teacher" time="0.052">
+    </testcase>
+    <testcase classname="getSubmissionImageAction practice OK - student" name="getSubmissionImageAction practice OK - student" time="0.024">
+    </testcase>
+    <testcase classname="getSubmissionImageAction practice OK - teacher" name="getSubmissionImageAction practice OK - teacher" time="0.056">
+    </testcase>
+    <testcase classname="getSubmissionImageAction practice not OK" name="getSubmissionImageAction practice not OK" time="0.028">
+    </testcase>
+    <testcase classname="getSubmissionImageAction in progress assessment - student" name="getSubmissionImageAction in progress assessment - student" time="0.033">
+    </testcase>
+    <testcase classname="getSubmissionImageAction in progress assessment - teacher" name="getSubmissionImageAction in progress assessment - teacher" time="0.046">
+    </testcase>
+    <testcase classname="getSubmissionImageAction closed assessment - student" name="getSubmissionImageAction closed assessment - student" time="0.03">
+    </testcase>
+    <testcase classname="getSubmissionImageAction closed assessment - teacher" name="getSubmissionImageAction closed assessment - teacher" time="0.022">
+    </testcase>
+    <testcase classname="getSubmissionImageAction closed assessment - other student" name="getSubmissionImageAction closed assessment - other student" time="0.025">
+    </testcase>
+    <testcase classname="getSubmissionImageAction LTI practice, student" name="getSubmissionImageAction LTI practice, student" time="0.032">
+    </testcase>
+    <testcase classname="getSubmissionImageAction LTI practice, teacher" name="getSubmissionImageAction LTI practice, teacher" time="0.022">
+    </testcase>
+    <testcase classname="getSubmissionImageAction LTI practice, other student" name="getSubmissionImageAction LTI practice, other student" time="0.018">
+    </testcase>
+    <testcase classname="uploadImageAction can upload to own draft when no image is there" name="uploadImageAction can upload to own draft when no image is there" time="0.036">
+    </testcase>
+    <testcase classname="uploadImageAction can upload to own draft when no image is there, image-security: OFF" name="uploadImageAction can upload to own draft when no image is there, image-security: OFF" time="0.03">
+    </testcase>
+    <testcase classname="uploadImageAction cannot upload to own draft when there is an image" name="uploadImageAction cannot upload to own draft when there is an image" time="0.046">
+    </testcase>
+    <testcase classname="uploadImageAction cannot upload to finished quiz" name="uploadImageAction cannot upload to finished quiz" time="0.031">
+    </testcase>
+    <testcase classname="uploadImageAction cannot upload to not own draft" name="uploadImageAction cannot upload to not own draft" time="0.031">
+    </testcase>
+    <testcase classname="deleteImageAction can delete from own draft when there is an image" name="deleteImageAction can delete from own draft when there is an image" time="0.051">
+    </testcase>
+    <testcase classname="deleteImageAction cannot delete, when there is no image" name="deleteImageAction cannot delete, when there is no image" time="0.023">
+    </testcase>
+    <testcase classname="deleteImageAction cannot delete from finished quiz" name="deleteImageAction cannot delete from finished quiz" time="0.021">
+    </testcase>
+    <testcase classname="deleteImageAction cannot delete from not own draft" name="deleteImageAction cannot delete from not own draft" time="0.052">
+    </testcase>
+    <testcase classname="handleImageScanSnsMessageAction should return 204 on success" name="handleImageScanSnsMessageAction should return 204 on success" time="0.033">
+    </testcase>
+    <testcase classname="handleImageScanSnsMessageAction should return Bad Request (400) when message sent with invalid type" name="handleImageScanSnsMessageAction should return Bad Request (400) when message sent with invalid type" time="0.017">
+    </testcase>
+    <testcase classname="handleImageScanSnsMessageAction should set the image upload as completed for &quot;clean&quot; notification" name="handleImageScanSnsMessageAction should set the image upload as completed for &quot;clean&quot; notification" time="0.041">
+    </testcase>
+    <testcase classname="handleImageScanSnsMessageAction should set the image upload as not finished for &quot;infected&quot; notification" name="handleImageScanSnsMessageAction should set the image upload as not finished for &quot;infected&quot; notification" time="0.037">
+    </testcase>
+    <testcase classname="handleImageScanSnsMessageAction handling S3 message format should set the image upload as finished always" name="handleImageScanSnsMessageAction handling S3 message format should set the image upload as finished always" time="0.046">
+    </testcase>
+  </testsuite>
+  <testsuite name="createStudysetAction" errors="0" failures="0" skipped="0" timestamp="2022-01-18T07:59:40" time="5.816" tests="36">
+    <testcase classname="createStudysetAction should create a new quiz from scratch" name="createStudysetAction should create a new quiz from scratch" time="0.254">
+    </testcase>
+    <testcase classname="createStudysetAction should copy PUBLISHED quiz as draft" name="createStudysetAction should copy PUBLISHED quiz as draft" time="0.058">
+    </testcase>
+    <testcase classname="createStudysetAction should copy own quiz as draft" name="createStudysetAction should copy own quiz as draft" time="0.071">
+    </testcase>
+    <testcase classname="createStudysetAction should return error when copied quiz does not exist" name="createStudysetAction should return error when copied quiz does not exist" time="0.089">
+    </testcase>
+    <testcase classname="createStudysetAction should NOT copy not owned private quiz" name="createStudysetAction should NOT copy not owned private quiz" time="0.04">
+    </testcase>
+    <testcase classname="getStudysetsAction public, no skip, no limit - no submission" name="getStudysetsAction public, no skip, no limit - no submission" time="0.031">
+    </testcase>
+    <testcase classname="getStudysetsAction public, no skip, no limit - has submission" name="getStudysetsAction public, no skip, no limit - has submission" time="0.022">
+    </testcase>
+    <testcase classname="getStudysetsAction created, no skip, no limit" name="getStudysetsAction created, no skip, no limit" time="0.039">
+    </testcase>
+    <testcase classname="getStudysetsAction created, skip, no limit" name="getStudysetsAction created, skip, no limit" time="0.029">
+    </testcase>
+    <testcase classname="getStudysetsAction created, no skip, limit" name="getStudysetsAction created, no skip, limit" time="0.021">
+    </testcase>
+    <testcase classname="getStudysetsAction created, skip, limit" name="getStudysetsAction created, skip, limit" time="0.018">
+    </testcase>
+    <testcase classname="getStudysetsAction created, no quiz" name="getStudysetsAction created, no quiz" time="0.024">
+    </testcase>
+    <testcase classname="getStudysetByIdAction No permission to load quiz" name="getStudysetByIdAction No permission to load quiz" time="0.044">
+    </testcase>
+    <testcase classname="getStudysetByIdAction Has permission to load quiz" name="getStudysetByIdAction Has permission to load quiz" time="0.046">
+    </testcase>
+    <testcase classname="createExerciseAction no edit right" name="createExerciseAction no edit right" time="0.065">
+    </testcase>
+    <testcase classname="createExerciseAction owner can create new exercise" name="createExerciseAction owner can create new exercise" time="0.053">
+    </testcase>
+    <testcase classname="updateStudysetAction no edit right" name="updateStudysetAction no edit right" time="0.034">
+    </testcase>
+    <testcase classname="updateStudysetAction exercise order change 4 -&gt; 2" name="updateStudysetAction exercise order change 4 -&gt; 2" time="0.063">
+    </testcase>
+    <testcase classname="updateStudysetAction exercise order change 2 -&gt; 4" name="updateStudysetAction exercise order change 2 -&gt; 4" time="0.05">
+    </testcase>
+    <testcase classname="updateStudysetAction invalid order change" name="updateStudysetAction invalid order change" time="0.026">
+    </testcase>
+    <testcase classname="updateStudysetAction should add viewer to draft quiz" name="updateStudysetAction should add viewer to draft quiz" time="0.066">
+    </testcase>
+    <testcase classname="updateStudysetAction should add viewer to finished quiz" name="updateStudysetAction should add viewer to finished quiz" time="0.035">
+    </testcase>
+    <testcase classname="updateStudysetAction should send profiles if there are multiple matching users" name="updateStudysetAction should send profiles if there are multiple matching users" time="0.032">
+    </testcase>
+    <testcase classname="updateStudysetAction should remove all viewers from draft quiz" name="updateStudysetAction should remove all viewers from draft quiz" time="0.035">
+    </testcase>
+    <testcase classname="updateStudysetAction should remove all viewers from finished quiz" name="updateStudysetAction should remove all viewers from finished quiz" time="0.022">
+    </testcase>
+    <testcase classname="updateStudysetAction should change state of own quiz" name="updateStudysetAction should change state of own quiz" time="0.021">
+    </testcase>
+    <testcase classname="updateStudysetAction should change metadata of own quiz" name="updateStudysetAction should change metadata of own quiz" time="0.034">
+    </testcase>
+    <testcase classname="updateStudysetAction should reject invalid update" name="updateStudysetAction should reject invalid update" time="0.031">
+    </testcase>
+    <testcase classname="getStudysetInfoAction owner can see shareInfo" name="getStudysetInfoAction owner can see shareInfo" time="0.031">
+    </testcase>
+    <testcase classname="getStudysetInfoAction not owner gets error" name="getStudysetInfoAction not owner gets error" time="0.016">
+    </testcase>
+    <testcase classname="deleteStudysetAction Teacher deletes quiz - dependencies" name="deleteStudysetAction Teacher deletes quiz - dependencies" time="0.104">
+    </testcase>
+    <testcase classname="deleteStudysetAction Teacher deletes quiz - no dependencies" name="deleteStudysetAction Teacher deletes quiz - no dependencies" time="0.089">
+    </testcase>
+    <testcase classname="deleteStudysetAction Not owner - error" name="deleteStudysetAction Not owner - error" time="0.03">
+    </testcase>
+    <testcase classname="deleteStudysetAction Not owned LTI quiz - error" name="deleteStudysetAction Not owned LTI quiz - error" time="0.02">
+    </testcase>
+    <testcase classname="deleteStudysetAction Delete linked LTI quiz - error" name="deleteStudysetAction Delete linked LTI quiz - error" time="0.032">
+    </testcase>
+    <testcase classname="deleteStudysetAction Teacher deletes LTI quiz - dependencies" name="deleteStudysetAction Teacher deletes LTI quiz - dependencies" time="0.034">
+    </testcase>
+  </testsuite>
+  <testsuite name="createPossibilityCheck" errors="0" failures="0" skipped="0" timestamp="2022-01-18T07:59:40" time="6.002" tests="68">
+    <testcase classname="createPossibilityCheck no studyset - OK" name="createPossibilityCheck no studyset - OK" time="0.341">
+    </testcase>
+    <testcase classname="createPossibilityCheck no name" name="createPossibilityCheck no name" time="0.023">
+    </testcase>
+    <testcase classname="createPossibilityCheck empty name" name="createPossibilityCheck empty name" time="0.021">
+    </testcase>
+    <testcase classname="createPossibilityCheck no studygroup" name="createPossibilityCheck no studygroup" time="0.019">
+    </testcase>
+    <testcase classname="createPossibilityCheck invalid studygroup id" name="createPossibilityCheck invalid studygroup id" time="0.047">
+    </testcase>
+    <testcase classname="createPossibilityCheck student" name="createPossibilityCheck student" time="0.063">
+    </testcase>
+    <testcase classname="createPossibilityCheck teacher - no studyset - OK" name="createPossibilityCheck teacher - no studyset - OK" time="0.029">
+    </testcase>
+    <testcase classname="createPossibilityCheck teacher - not owned studyset" name="createPossibilityCheck teacher - not owned studyset" time="0.043">
+    </testcase>
+    <testcase classname="createPossibilityCheck teacher - owned studyset - OK" name="createPossibilityCheck teacher - owned studyset - OK" time="0.032">
+    </testcase>
+    <testcase classname="assessmentRoleAndStudygroupFromAssessmentId no assessment" name="assessmentRoleAndStudygroupFromAssessmentId no assessment" time="0.038">
+    </testcase>
+    <testcase classname="assessmentRoleAndStudygroupFromAssessmentId studygroupAndRoleCheck call error" name="assessmentRoleAndStudygroupFromAssessmentId studygroupAndRoleCheck call error" time="0.05">
+    </testcase>
+    <testcase classname="assessmentRoleAndStudygroupFromAssessmentId studygroupAndRoleCheck call OK" name="assessmentRoleAndStudygroupFromAssessmentId studygroupAndRoleCheck call OK" time="0.045">
+    </testcase>
+    <testcase classname="findPossibilityCheck assessmentRoleAndStudygroupFromAssessmentId error" name="findPossibilityCheck assessmentRoleAndStudygroupFromAssessmentId error" time="0.036">
+    </testcase>
+    <testcase classname="findPossibilityCheck pending" name="findPossibilityCheck pending" time="0.032">
+    </testcase>
+    <testcase classname="findPossibilityCheck student - only state" name="findPossibilityCheck student - only state" time="0.06">
+    </testcase>
+    <testcase classname="findPossibilityCheck student - all assessment" name="findPossibilityCheck student - all assessment" time="0.026">
+    </testcase>
+    <testcase classname="findPossibilityCheck teacher - only state" name="findPossibilityCheck teacher - only state" time="0.025">
+    </testcase>
+    <testcase classname="findPossibilityCheck Teacher - all assessment" name="findPossibilityCheck Teacher - all assessment" time="0.031">
+    </testcase>
+    <testcase classname="updatePossibilityCheck assessmentRoleAndStudygroupFromAssessmentId error" name="updatePossibilityCheck assessmentRoleAndStudygroupFromAssessmentId error" time="0.029">
+    </testcase>
+    <testcase classname="updatePossibilityCheck pending" name="updatePossibilityCheck pending" time="0.021">
+    </testcase>
+    <testcase classname="updatePossibilityCheck teacher - state error" name="updatePossibilityCheck teacher - state error" time="0.027">
+    </testcase>
+    <testcase classname="updatePossibilityCheck teacher - metadata error" name="updatePossibilityCheck teacher - metadata error" time="0.031">
+    </testcase>
+    <testcase classname="updatePossibilityCheck teacher - update OK" name="updatePossibilityCheck teacher - update OK" time="0.03">
+    </testcase>
+    <testcase classname="checkStateUpdatePossibility extra info besides state" name="checkStateUpdatePossibility extra info besides state" time="0.018">
+    </testcase>
+    <testcase classname="checkStateUpdatePossibility planned state" name="checkStateUpdatePossibility planned state" time="0.016">
+    </testcase>
+    <testcase classname="checkStateUpdatePossibility prepared state" name="checkStateUpdatePossibility prepared state" time="0.018">
+    </testcase>
+    <testcase classname="checkStateUpdatePossibility in progress state" name="checkStateUpdatePossibility in progress state" time="0.017">
+    </testcase>
+    <testcase classname="checkStateUpdatePossibility closed state" name="checkStateUpdatePossibility closed state" time="0.023">
+    </testcase>
+    <testcase classname="checkStateUpdateInProgress planned - not ready" name="checkStateUpdateInProgress planned - not ready" time="0.018">
+    </testcase>
+    <testcase classname="checkStateUpdateInProgress already launched - in progress" name="checkStateUpdateInProgress already launched - in progress" time="0.017">
+    </testcase>
+    <testcase classname="checkStateUpdateInProgress already launched - closed" name="checkStateUpdateInProgress already launched - closed" time="0.018">
+    </testcase>
+    <testcase classname="checkStateUpdateInProgress prepared test - inactive class" name="checkStateUpdateInProgress prepared test - inactive class" time="0.026">
+    </testcase>
+    <testcase classname="checkStateUpdateInProgress prepared test - active class" name="checkStateUpdateInProgress prepared test - active class" time="0.022">
+    </testcase>
+    <testcase classname="checkStateUpdateClosed planned - not ready" name="checkStateUpdateClosed planned - not ready" time="0.017">
+    </testcase>
+    <testcase classname="checkStateUpdateClosed prepared - not ready" name="checkStateUpdateClosed prepared - not ready" time="0.014">
+    </testcase>
+    <testcase classname="checkStateUpdateClosed in progress, close error" name="checkStateUpdateClosed in progress, close error" time="0.017">
+    </testcase>
+    <testcase classname="checkStateUpdateClosed already closed" name="checkStateUpdateClosed already closed" time="0.016">
+    </testcase>
+    <testcase classname="checkStateUpdateClosed unshared, close OK" name="checkStateUpdateClosed unshared, close OK" time="0.013">
+    </testcase>
+    <testcase classname="checkStateUpdateUnshared planned - not ready" name="checkStateUpdateUnshared planned - not ready" time="0.012">
+    </testcase>
+    <testcase classname="checkStateUpdateUnshared prepared - not ready" name="checkStateUpdateUnshared prepared - not ready" time="0.01">
+    </testcase>
+    <testcase classname="checkStateUpdateUnshared closed - already closed" name="checkStateUpdateUnshared closed - already closed" time="0.011">
+    </testcase>
+    <testcase classname="checkStateUpdateUnshared unshared - already closed" name="checkStateUpdateUnshared unshared - already closed" time="0.014">
+    </testcase>
+    <testcase classname="checkStateUpdateUnshared in progress, unshared OK" name="checkStateUpdateUnshared in progress, unshared OK" time="0.01">
+    </testcase>
+    <testcase classname="checkNonStateUpdatePossibility in progress" name="checkNonStateUpdatePossibility in progress" time="0.016">
+    </testcase>
+    <testcase classname="checkNonStateUpdatePossibility closed" name="checkNonStateUpdatePossibility closed" time="0.021">
+    </testcase>
+    <testcase classname="checkNonStateUpdatePossibility planned, studyset check" name="checkNonStateUpdatePossibility planned, studyset check" time="0.014">
+    </testcase>
+    <testcase classname="checkNonStateUpdatePossibility planned, no further check" name="checkNonStateUpdatePossibility planned, no further check" time="0.01">
+    </testcase>
+    <testcase classname="cancelPossibilityCheck assessmentRoleAndStudygroupFromAssessmentId error" name="cancelPossibilityCheck assessmentRoleAndStudygroupFromAssessmentId error" time="0.02">
+    </testcase>
+    <testcase classname="cancelPossibilityCheck pending" name="cancelPossibilityCheck pending" time="0.019">
+    </testcase>
+    <testcase classname="cancelPossibilityCheck teacher - in progress" name="cancelPossibilityCheck teacher - in progress" time="0.022">
+    </testcase>
+    <testcase classname="cancelPossibilityCheck teacher - closed" name="cancelPossibilityCheck teacher - closed" time="0.025">
+    </testcase>
+    <testcase classname="cancelPossibilityCheck teacher - planned" name="cancelPossibilityCheck teacher - planned" time="0.032">
+    </testcase>
+    <testcase classname="cancelPossibilityCheck teacher - prepared" name="cancelPossibilityCheck teacher - prepared" time="0.034">
+    </testcase>
+    <testcase classname="completionPossibilityCheck assessmentRoleAndStudygroupFromAssessmentId error" name="completionPossibilityCheck assessmentRoleAndStudygroupFromAssessmentId error" time="0.037">
+    </testcase>
+    <testcase classname="completionPossibilityCheck pending" name="completionPossibilityCheck pending" time="0.029">
+    </testcase>
+    <testcase classname="completionPossibilityCheck teacher" name="completionPossibilityCheck teacher" time="0.035">
+    </testcase>
+    <testcase classname="completionPossibilityCheck student - inactive class" name="completionPossibilityCheck student - inactive class" time="0.024">
+    </testcase>
+    <testcase classname="completionPossibilityCheck student - planned" name="completionPossibilityCheck student - planned" time="0.039">
+    </testcase>
+    <testcase classname="completionPossibilityCheck student - prepared" name="completionPossibilityCheck student - prepared" time="0.019">
+    </testcase>
+    <testcase classname="completionPossibilityCheck student - closed" name="completionPossibilityCheck student - closed" time="0.019">
+    </testcase>
+    <testcase classname="completionPossibilityCheck student - in progress" name="completionPossibilityCheck student - in progress" time="0.03">
+    </testcase>
+    <testcase classname="savePossibilityCheck assessmentRoleAndStudygroupFromAssessmentId error" name="savePossibilityCheck assessmentRoleAndStudygroupFromAssessmentId error" time="0.037">
+    </testcase>
+    <testcase classname="savePossibilityCheck student - closed assessment" name="savePossibilityCheck student - closed assessment" time="0.026">
+    </testcase>
+    <testcase classname="savePossibilityCheck student - inactive class" name="savePossibilityCheck student - inactive class" time="0.018">
+    </testcase>
+    <testcase classname="savePossibilityCheck student OK" name="savePossibilityCheck student OK" time="0.028">
+    </testcase>
+    <testcase classname="submitPossibilityCheck assessmentRoleAndStudygroupFromAssessmentId error" name="submitPossibilityCheck assessmentRoleAndStudygroupFromAssessmentId error" time="0.027">
+    </testcase>
+    <testcase classname="submitPossibilityCheck student - inactive class" name="submitPossibilityCheck student - inactive class" time="0.036">
+    </testcase>
+    <testcase classname="submitPossibilityCheck student OK" name="submitPossibilityCheck student OK" time="0.027">
+    </testcase>
+  </testsuite>
+  <testsuite name="createAssessmentAction" errors="0" failures="0" skipped="0" timestamp="2022-01-18T07:59:40" time="6.531" tests="51">
+    <testcase classname="createAssessmentAction should create a new assessment with PLANNED state in the db" name="createAssessmentAction should create a new assessment with PLANNED state in the db" time="0.307">
+    </testcase>
+    <testcase classname="createAssessmentAction should create a new assessment and list all of a studygroup with listAll option on body" name="createAssessmentAction should create a new assessment and list all of a studygroup with listAll option on body" time="0.055">
+    </testcase>
+    <testcase classname="createAssessmentAction should call errorHandling if parameters are not provided properly" name="createAssessmentAction should call errorHandling if parameters are not provided properly" time="0.027">
+    </testcase>
+    <testcase classname="createAssessmentAction not enough info in request" name="createAssessmentAction not enough info in request" time="0.052">
+    </testcase>
+    <testcase classname="createAssessmentAction not class member - should return errorResponse" name="createAssessmentAction not class member - should return errorResponse" time="0.032">
+    </testcase>
+    <testcase classname="createAssessmentAction student - should return errorResponse" name="createAssessmentAction student - should return errorResponse" time="0.053">
+    </testcase>
+    <testcase classname="createAssessmentAction teacher, wrong studysetId - should return errorResponse" name="createAssessmentAction teacher, wrong studysetId - should return errorResponse" time="0.052">
+    </testcase>
+    <testcase classname="createAssessmentAction teacher, not owned studyset - should return errorResponse" name="createAssessmentAction teacher, not owned studyset - should return errorResponse" time="0.043">
+    </testcase>
+    <testcase classname="findAssessmentAction should return data of an assessment  - teacher" name="findAssessmentAction should return data of an assessment  - teacher" time="0.024">
+    </testcase>
+    <testcase classname="findAssessmentAction should return limited data  - teacher" name="findAssessmentAction should return limited data  - teacher" time="0.045">
+    </testcase>
+    <testcase classname="findAssessmentAction should return limited data  - student" name="findAssessmentAction should return limited data  - student" time="0.041">
+    </testcase>
+    <testcase classname="findAssessmentAction should call response with forbidden error code if requester is not teacher - full" name="findAssessmentAction should call response with forbidden error code if requester is not teacher - full" time="0.026">
+    </testcase>
+    <testcase classname="findAssessmentAction should call response with forbidden error code if requester is not member - state" name="findAssessmentAction should call response with forbidden error code if requester is not member - state" time="0.031">
+    </testcase>
+    <testcase classname="findAssessmentAction should call response with forbidden error code if requester is pending student - state" name="findAssessmentAction should call response with forbidden error code if requester is pending student - state" time="0.035">
+    </testcase>
+    <testcase classname="findAssessmentAction should call response with not found error code if assessmentId is corrupt" name="findAssessmentAction should call response with not found error code if assessmentId is corrupt" time="0.022">
+    </testcase>
+    <testcase classname="updateAssessmentAction update - teacher PLANNED -&gt; PREPARED" name="updateAssessmentAction update - teacher PLANNED -&gt; PREPARED" time="0.055">
+    </testcase>
+    <testcase classname="updateAssessmentAction update - teacher PREPARED -&gt; PLANNED" name="updateAssessmentAction update - teacher PREPARED -&gt; PLANNED" time="0.033">
+    </testcase>
+    <testcase classname="updateAssessmentAction should update some fields of an assessment, and return all assessments if listAll is true" name="updateAssessmentAction should update some fields of an assessment, and return all assessments if listAll is true" time="0.04">
+    </testcase>
+    <testcase classname="updateAssessmentAction update - teacher non existing studyset  - error" name="updateAssessmentAction update - teacher non existing studyset  - error" time="0.042">
+    </testcase>
+    <testcase classname="updateAssessmentAction update - teacher not owned studyset  - error" name="updateAssessmentAction update - teacher not owned studyset  - error" time="0.029">
+    </testcase>
+    <testcase classname="updateAssessmentAction not a member - error" name="updateAssessmentAction not a member - error" time="0.042">
+    </testcase>
+    <testcase classname="updateAssessmentAction student - error" name="updateAssessmentAction student - error" time="0.072">
+    </testcase>
+    <testcase classname="updateAssessmentAction assessment state is in_progress - error" name="updateAssessmentAction assessment state is in_progress - error" time="0.059">
+    </testcase>
+    <testcase classname="updateAssessmentAction assessment state is closed - error" name="updateAssessmentAction assessment state is closed - error" time="0.069">
+    </testcase>
+    <testcase classname="updateAssessmentAction assessment is not found - error" name="updateAssessmentAction assessment is not found - error" time="0.02">
+    </testcase>
+    <testcase classname="cancelAssessmentAction teacher" name="cancelAssessmentAction teacher" time="0.031">
+    </testcase>
+    <testcase classname="cancelAssessmentAction student" name="cancelAssessmentAction student" time="0.064">
+    </testcase>
+    <testcase classname="cancelAssessmentAction assessment state is in_progress - error" name="cancelAssessmentAction assessment state is in_progress - error" time="0.046">
+    </testcase>
+    <testcase classname="cancelAssessmentAction assessment state is closed - error" name="cancelAssessmentAction assessment state is closed - error" time="0.039">
+    </testcase>
+    <testcase classname="handleAssessmentCompletion should call response with forbidden error code if requester is a teacher" name="handleAssessmentCompletion should call response with forbidden error code if requester is a teacher" time="0.023">
+    </testcase>
+    <testcase classname="handleAssessmentCompletion should call response with forbidden error code if requester is not in class" name="handleAssessmentCompletion should call response with forbidden error code if requester is not in class" time="0.043">
+    </testcase>
+    <testcase classname="handleAssessmentCompletion student in class - PLANNED status" name="handleAssessmentCompletion student in class - PLANNED status" time="0.022">
+    </testcase>
+    <testcase classname="handleAssessmentCompletion student in class - PREPARED status" name="handleAssessmentCompletion student in class - PREPARED status" time="0.025">
+    </testcase>
+    <testcase classname="handleAssessmentCompletion student in class - CLOSED status" name="handleAssessmentCompletion student in class - CLOSED status" time="0.028">
+    </testcase>
+    <testcase classname="handleAssessmentCompletion student with submission - IN_PROGRESS status ACTIVE class" name="handleAssessmentCompletion student with submission - IN_PROGRESS status ACTIVE class" time="0.047">
+    </testcase>
+    <testcase classname="handleAssessmentCompletion student without submission - IN_PROGRESS status ACTIVE class" name="handleAssessmentCompletion student without submission - IN_PROGRESS status ACTIVE class" time="0.051">
+    </testcase>
+    <testcase classname="handleAssessmentCompletion active student - IN_PROGRESS status CLOSED class" name="handleAssessmentCompletion active student - IN_PROGRESS status CLOSED class" time="0.017">
+    </testcase>
+    <testcase classname="handleAssessmentCompletion pending student - IN_PROGRESS status ACTIVE class" name="handleAssessmentCompletion pending student - IN_PROGRESS status ACTIVE class" time="0.027">
+    </testcase>
+    <testcase classname="handleAssessmentCompletion pending student - IN_PROGRESS status CLOSED class" name="handleAssessmentCompletion pending student - IN_PROGRESS status CLOSED class" time="0.022">
+    </testcase>
+    <testcase classname="saveAssessmentExercise should call response with forbidden error code if requester is not submission owner" name="saveAssessmentExercise should call response with forbidden error code if requester is not submission owner" time="0.04">
+    </testcase>
+    <testcase classname="saveAssessmentExercise student in class - CLOSED status" name="saveAssessmentExercise student in class - CLOSED status" time="0.036">
+    </testcase>
+    <testcase classname="saveAssessmentExercise student with submission - IN_PROGRESS status ACTIVE class" name="saveAssessmentExercise student with submission - IN_PROGRESS status ACTIVE class" time="0.037">
+    </testcase>
+    <testcase classname="saveAssessmentExercise active student - IN_PROGRESS status CLOSED class" name="saveAssessmentExercise active student - IN_PROGRESS status CLOSED class" time="0.031">
+    </testcase>
+    <testcase classname="submitAssessmentAction should call response with forbidden error code if no submission" name="submitAssessmentAction should call response with forbidden error code if no submission" time="0.025">
+    </testcase>
+    <testcase classname="submitAssessmentAction student in class - CLOSED status" name="submitAssessmentAction student in class - CLOSED status" time="0.028">
+    </testcase>
+    <testcase classname="submitAssessmentAction student with submission - IN_PROGRESS status ACTIVE class" name="submitAssessmentAction student with submission - IN_PROGRESS status ACTIVE class" time="0.037">
+    </testcase>
+    <testcase classname="submitAssessmentAction active student - IN_PROGRESS status CLOSED class" name="submitAssessmentAction active student - IN_PROGRESS status CLOSED class" time="0.037">
+    </testcase>
+    <testcase classname="checkAssessmentAction when it is not existing" name="checkAssessmentAction when it is not existing" time="0.022">
+    </testcase>
+    <testcase classname="checkAssessmentAction when assessment is unchecked" name="checkAssessmentAction when assessment is unchecked" time="0.034">
+    </testcase>
+    <testcase classname="resubmitAssessmentAction Not admin user" name="resubmitAssessmentAction Not admin user" time="0.021">
+    </testcase>
+    <testcase classname="resubmitAssessmentAction Admin user can close submission" name="resubmitAssessmentAction Admin user can close submission" time="0.029">
+    </testcase>
+  </testsuite>
+  <testsuite name="previewPermissionCheck" errors="0" failures="0" skipped="0" timestamp="2022-01-18T07:59:45" time="3.001" tests="10">
+    <testcase classname="previewPermissionCheck no studyset" name="previewPermissionCheck no studyset" time="0.381">
+    </testcase>
+    <testcase classname="previewPermissionCheck no permission" name="previewPermissionCheck no permission" time="0.048">
+    </testcase>
+    <testcase classname="previewPermissionCheck author" name="previewPermissionCheck author" time="0.03">
+    </testcase>
+    <testcase classname="previewPermissionCheck viewer" name="previewPermissionCheck viewer" time="0.047">
+    </testcase>
+    <testcase classname="previewPermissionCheck lti teacher" name="previewPermissionCheck lti teacher" time="0.026">
+    </testcase>
+    <testcase classname="getStudysetExercisesAction should return formatted finished studyset" name="getStudysetExercisesAction should return formatted finished studyset" time="0.03">
+    </testcase>
+    <testcase classname="getStudysetExercisesAction should return formatted draft studyset" name="getStudysetExercisesAction should return formatted draft studyset" time="0.022">
+    </testcase>
+    <testcase classname="checkAnswerAction correct answer" name="checkAnswerAction correct answer" time="0.028">
+    </testcase>
+    <testcase classname="checkAnswerAction wrong answer - no more attempts" name="checkAnswerAction wrong answer - no more attempts" time="0.026">
+    </testcase>
+    <testcase classname="checkAnswerAction wrong answer - has more attempts" name="checkAnswerAction wrong answer - has more attempts" time="0.023">
+    </testcase>
+  </testsuite>
+  <testsuite name="getStudysetExercisesAction" errors="0" failures="0" skipped="0" timestamp="2022-01-18T07:59:45" time="2.964" tests="6">
+    <testcase classname="getStudysetExercisesAction should return studyset exercises" name="getStudysetExercisesAction should return studyset exercises" time="0.395">
+    </testcase>
+    <testcase classname="getStudysetExercisesAction should return an error response when the studyset does not exist" name="getStudysetExercisesAction should return an error response when the studyset does not exist" time="0.056">
+    </testcase>
+    <testcase classname="getStudysetExercisesAction should return an error response when the studyset is not published" name="getStudysetExercisesAction should return an error response when the studyset is not published" time="0.024">
+    </testcase>
+    <testcase classname="checkAnswerAction should return whether the answer is correct" name="checkAnswerAction should return whether the answer is correct" time="0.044">
+    </testcase>
+    <testcase classname="checkAnswerAction should return an error response when the studyset does not exist" name="checkAnswerAction should return an error response when the studyset does not exist" time="0.029">
+    </testcase>
+    <testcase classname="checkAnswerAction should return an error response when the studyset is not published" name="checkAnswerAction should return an error response when the studyset is not published" time="0.048">
+    </testcase>
+  </testsuite>
+  <testsuite name="getActivityInfoAction" errors="0" failures="0" skipped="0" timestamp="2022-01-18T07:59:45" time="2.728" tests="13">
+    <testcase classname="getActivityInfoAction should throw error when user is not teacher" name="getActivityInfoAction should throw error when user is not teacher" time="0.438">
+    </testcase>
+    <testcase classname="getActivityInfoAction has linked activity" name="getActivityInfoAction has linked activity" time="0.037">
+    </testcase>
+    <testcase classname="getActivityInfoAction no linked activity" name="getActivityInfoAction no linked activity" time="0.023">
+    </testcase>
+    <testcase classname="linkActivityAction should throw error when user is not teacher" name="linkActivityAction should throw error when user is not teacher" time="0.044">
+    </testcase>
+    <testcase classname="linkActivityAction should throw error when studyset does not exist" name="linkActivityAction should throw error when studyset does not exist" time="0.031">
+    </testcase>
+    <testcase classname="linkActivityAction should throw error when not owner of studyset" name="linkActivityAction should throw error when not owner of studyset" time="0.055">
+    </testcase>
+    <testcase classname="linkActivityAction should throw error for draft" name="linkActivityAction should throw error for draft" time="0.026">
+    </testcase>
+    <testcase classname="linkActivityAction activity already has submission" name="linkActivityAction activity already has submission" time="0.048">
+    </testcase>
+    <testcase classname="linkActivityAction teacher can link own quiz where it is not shared" name="linkActivityAction teacher can link own quiz where it is not shared" time="0.048">
+    </testcase>
+    <testcase classname="linkActivityAction any teacher can link course public quiz" name="linkActivityAction any teacher can link course public quiz" time="0.031">
+    </testcase>
+    <testcase classname="deleteActivityLinkAction should throw error when user is not teacher" name="deleteActivityLinkAction should throw error when user is not teacher" time="0.022">
+    </testcase>
+    <testcase classname="deleteActivityLinkAction activity already has submission" name="deleteActivityLinkAction activity already has submission" time="0.025">
+    </testcase>
+    <testcase classname="deleteActivityLinkAction successful activity delete" name="deleteActivityLinkAction successful activity delete" time="0.026">
+    </testcase>
+  </testsuite>
+  <testsuite name="renderApp" errors="0" failures="0" skipped="0" timestamp="2022-01-18T07:59:45" time="2.869" tests="8">
+    <testcase classname="renderApp feature rendering authenticated user should render the app without enabled features" name="renderApp feature rendering authenticated user should render the app without enabled features" time="0.544">
+    </testcase>
+    <testcase classname="renderApp feature rendering authenticated user should render the app with an enabled feature" name="renderApp feature rendering authenticated user should render the app with an enabled feature" time="0.096">
+    </testcase>
+    <testcase classname="renderApp feature rendering authenticated user should render the app without enabled feature when feature is enabled for other platform" name="renderApp feature rendering authenticated user should render the app without enabled feature when feature is enabled for other platform" time="0.068">
+    </testcase>
+    <testcase classname="renderApp feature rendering authenticated user should render the app with enabled feature when feature is enabled for the current user" name="renderApp feature rendering authenticated user should render the app with enabled feature when feature is enabled for the current user" time="0.063">
+    </testcase>
+    <testcase classname="renderApp feature rendering unauthenticated user should render the app without enabled features" name="renderApp feature rendering unauthenticated user should render the app without enabled features" time="0.027">
+    </testcase>
+    <testcase classname="renderApp feature rendering unauthenticated user should render the app with a globally enabled feature" name="renderApp feature rendering unauthenticated user should render the app with a globally enabled feature" time="0.032">
+    </testcase>
+    <testcase classname="renderApp user data rendering should render the app with the passed user data" name="renderApp user data rendering should render the app with the passed user data" time="0.021">
+    </testcase>
+    <testcase classname="renderApp user data rendering should render the app with the default user data when user is not logged in" name="renderApp user data rendering should render the app with the default user data when user is not logged in" time="0.039">
+    </testcase>
+  </testsuite>
+  <testsuite name="setAssessmentState" errors="0" failures="0" skipped="0" timestamp="2022-01-18T07:59:46" time="2.431" tests="9">
+    <testcase classname="setAssessmentState IN_PROGRESS" name="setAssessmentState IN_PROGRESS" time="0.002">
+    </testcase>
+    <testcase classname="setAssessmentState PLANNED - no studyset" name="setAssessmentState PLANNED - no studyset" time="0.001">
+    </testcase>
+    <testcase classname="setAssessmentState PLANNED - studyset" name="setAssessmentState PLANNED - studyset" time="0.001">
+    </testcase>
+    <testcase classname="setAssessmentState PREPARED - no studyset" name="setAssessmentState PREPARED - no studyset" time="0">
+    </testcase>
+    <testcase classname="setAssessmentState PREPARED - studyset" name="setAssessmentState PREPARED - studyset" time="0.001">
+    </testcase>
+    <testcase classname="setAssessmentDate no requested state change" name="setAssessmentDate no requested state change" time="0">
+    </testcase>
+    <testcase classname="setAssessmentDate IN_PROGRESS" name="setAssessmentDate IN_PROGRESS" time="0.001">
+    </testcase>
+    <testcase classname="setAssessmentDate UNSHARED" name="setAssessmentDate UNSHARED" time="0">
+    </testcase>
+    <testcase classname=" handleSetAssessmentToUnshared" name=" handleSetAssessmentToUnshared" time="0.368">
+    </testcase>
+  </testsuite>
+  <testsuite name="Emits correct audit logs" errors="0" failures="0" skipped="0" timestamp="2022-01-18T07:59:45" time="3.382" tests="3">
+    <testcase classname="Emits correct audit logs emits OK audit logs on new studyset creation" name="Emits correct audit logs emits OK audit logs on new studyset creation" time="0.455">
+    </testcase>
+    <testcase classname="Emits correct audit logs emits OK audit logs on new exercise creation" name="Emits correct audit logs emits OK audit logs on new exercise creation" time="0.073">
+    </testcase>
+    <testcase classname="Emits correct audit logs emits unsuccessful audit logs on when studyset doesnt exist" name="Emits correct audit logs emits unsuccessful audit logs on when studyset doesnt exist" time="0.088">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="5" timestamp="2022-01-18T07:59:46" time="2.706" tests="34">
+    <testcase classname=" createStudyset, findStudysetById" name=" createStudyset, findStudysetById" time="0.375">
+    </testcase>
+    <testcase classname=" addExerciseToStudyset" name=" addExerciseToStudyset" time="0.065">
+    </testcase>
+    <testcase classname="listOwnedStudysets has studyset - without skip and limit" name="listOwnedStudysets has studyset - without skip and limit" time="0.027">
+    </testcase>
+    <testcase classname="listOwnedStudysets has studyset - skip and limit" name="listOwnedStudysets has studyset - skip and limit" time="0.036">
+    </testcase>
+    <testcase classname="listOwnedStudysets no studyset" name="listOwnedStudysets no studyset" time="0.024">
+    </testcase>
+    <testcase classname="listStudysetsByState has studyset - without skip and limit" name="listStudysetsByState has studyset - without skip and limit" time="0.027">
+    </testcase>
+    <testcase classname="listStudysetsByState has studyset - skip and limit" name="listStudysetsByState has studyset - skip and limit" time="0.02">
+    </testcase>
+    <testcase classname="listStudysetsByState no studyset" name="listStudysetsByState no studyset" time="0.038">
+    </testcase>
+    <testcase classname="findExercisesById correct id - text" name="findExercisesById correct id - text" time="0.022">
+    </testcase>
+    <testcase classname="findExercisesById correct id - multiple" name="findExercisesById correct id - multiple" time="0.022">
+    </testcase>
+    <testcase classname="findExercisesById no studyset" name="findExercisesById no studyset" time="0.019">
+    </testcase>
+    <testcase classname="findExerciseQuestionsById correct id - text" name="findExerciseQuestionsById correct id - text" time="0.02">
+    </testcase>
+    <testcase classname="findExerciseQuestionsById correct id - multiple" name="findExerciseQuestionsById correct id - multiple" time="0.025">
+    </testcase>
+    <testcase classname="findExerciseQuestionsById no studyset" name="findExerciseQuestionsById no studyset" time="0.024">
+    </testcase>
+    <testcase classname=" updateStudysetById" name=" updateStudysetById" time="0.019">
+    </testcase>
+    <testcase classname=" removeFieldsFromStudyset" name=" removeFieldsFromStudyset" time="0.018">
+    </testcase>
+    <testcase classname="findInfoForSubmissionById text answer set" name="findInfoForSubmissionById text answer set" time="0.022">
+    </testcase>
+    <testcase classname="findInfoForSubmissionById multiple choice set" name="findInfoForSubmissionById multiple choice set" time="0.016">
+    </testcase>
+    <testcase classname=" findCheckerDataByExercise" name=" findCheckerDataByExercise" time="0.017">
+    </testcase>
+    <testcase classname=" createExercise" name=" createExercise" time="0.019">
+    </testcase>
+    <testcase classname=" deleteExerciseById" name=" deleteExerciseById" time="0.017">
+    </testcase>
+    <testcase classname="updateExercise question" name="updateExercise question" time="0.016">
+    </testcase>
+    <testcase classname="updateExercise type" name="updateExercise type" time="0.017">
+    </testcase>
+    <testcase classname="updateExercise answer - multi" name="updateExercise answer - multi" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="updateExercise answer - mrv" name="updateExercise answer - mrv" time="0.02">
+    </testcase>
+    <testcase classname="updateExercise questionImageMol empty" name="updateExercise questionImageMol empty" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="updateExercise questionImageMol" name="updateExercise questionImageMol" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="updateExercise starterImage empty" name="updateExercise starterImage empty" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="updateExercise maxAttempts" name="updateExercise maxAttempts" time="0.016">
+    </testcase>
+    <testcase classname="updateExercise maxScore" name="updateExercise maxScore" time="0.028">
+    </testcase>
+    <testcase classname="updateExercise answerOptions" name="updateExercise answerOptions" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="getSharingInfo not shared" name="getSharingInfo not shared" time="0.02">
+    </testcase>
+    <testcase classname="getSharingInfo shared multiple times in a class - only count once" name="getSharingInfo shared multiple times in a class - only count once" time="0.02">
+    </testcase>
+    <testcase classname=" test deleteStudyset" name=" test deleteStudyset" time="0.04">
+    </testcase>
+  </testsuite>
+  <testsuite name="isQuizSharedInCourse" errors="0" failures="0" skipped="0" timestamp="2022-01-18T07:59:46" time="2.51" tests="8">
+    <testcase classname="isQuizSharedInCourse should return false when quiz is not shared" name="isQuizSharedInCourse should return false when quiz is not shared" time="0.332">
+    </testcase>
+    <testcase classname="isQuizSharedInCourse should return true when quiz is shared" name="isQuizSharedInCourse should return true when quiz is shared" time="0.04">
+    </testcase>
+    <testcase classname="renderLtiApp user data rendering should render the app with the passed user data" name="renderLtiApp user data rendering should render the app with the passed user data" time="0.045">
+    </testcase>
+    <testcase classname="renderLtiApp user data rendering should render the app when user data is missing" name="renderLtiApp user data rendering should render the app when user data is missing" time="0.027">
+    </testcase>
+    <testcase classname="renderLtiApp feature rendering authenticated user should render the app without enabled features" name="renderLtiApp feature rendering authenticated user should render the app without enabled features" time="0.032">
+    </testcase>
+    <testcase classname="renderLtiApp feature rendering authenticated user should render the app with a globally enabled feature" name="renderLtiApp feature rendering authenticated user should render the app with a globally enabled feature" time="0.034">
+    </testcase>
+    <testcase classname="renderLtiApp feature rendering authenticated user should render the app with a feature enabled for the current user" name="renderLtiApp feature rendering authenticated user should render the app with a feature enabled for the current user" time="0.045">
+    </testcase>
+    <testcase classname="renderLtiApp feature rendering unauthenticated user should render legal accept page as without valid userId you cannot go further" name="renderLtiApp feature rendering unauthenticated user should render legal accept page as without valid userId you cannot go further" time="0.026">
+    </testcase>
+  </testsuite>
+  <testsuite name="isAuthor" errors="0" failures="0" skipped="0" timestamp="2022-01-18T07:59:45" time="3.366" tests="22">
+    <testcase classname="isAuthor author" name="isAuthor author" time="0.381">
+    </testcase>
+    <testcase classname="isAuthor LTI author" name="isAuthor LTI author" time="0.051">
+    </testcase>
+    <testcase classname="isAuthor same LTI id, different platform" name="isAuthor same LTI id, different platform" time="0.02">
+    </testcase>
+    <testcase classname="isViewer viewer" name="isViewer viewer" time="0.022">
+    </testcase>
+    <testcase classname="isViewer not viewer" name="isViewer not viewer" time="0.042">
+    </testcase>
+    <testcase classname="isSharedWithTeacherOfLtiCourse shared" name="isSharedWithTeacherOfLtiCourse shared" time="0.029">
+    </testcase>
+    <testcase classname="isSharedWithTeacherOfLtiCourse not shared" name="isSharedWithTeacherOfLtiCourse not shared" time="0.018">
+    </testcase>
+    <testcase classname="isSharedThroughAssessment shared" name="isSharedThroughAssessment shared" time="0.065">
+    </testcase>
+    <testcase classname="isSharedThroughAssessment not shared" name="isSharedThroughAssessment not shared" time="0.052">
+    </testcase>
+    <testcase classname="isUserTeacherInStudygroup teacher" name="isUserTeacherInStudygroup teacher" time="0.033">
+    </testcase>
+    <testcase classname="isUserTeacherInStudygroup not teacher" name="isUserTeacherInStudygroup not teacher" time="0.038">
+    </testcase>
+    <testcase classname="hasPermissionToCopy has permission" name="hasPermissionToCopy has permission" time="0.035">
+    </testcase>
+    <testcase classname="hasPermissionToCopy no permission" name="hasPermissionToCopy no permission" time="0.033">
+    </testcase>
+    <testcase classname="checkStudyset exists" name="checkStudyset exists" time="0.038">
+    </testcase>
+    <testcase classname="checkStudyset no such studyset" name="checkStudyset no such studyset" time="0.036">
+    </testcase>
+    <testcase classname="checkOwnership owner" name="checkOwnership owner" time="0.029">
+    </testcase>
+    <testcase classname="checkOwnership not owner" name="checkOwnership not owner" time="0.017">
+    </testcase>
+    <testcase classname="hasPermissionToView can view" name="hasPermissionToView can view" time="0.036">
+    </testcase>
+    <testcase classname="hasPermissionToView cannot view" name="hasPermissionToView cannot view" time="0.039">
+    </testcase>
+    <testcase classname="hasPermissionToViewImage author can view" name="hasPermissionToViewImage author can view" time="0.022">
+    </testcase>
+    <testcase classname="hasPermissionToViewImage can view PUBLISHED image" name="hasPermissionToViewImage can view PUBLISHED image" time="0.024">
+    </testcase>
+    <testcase classname="hasPermissionToViewImage cannot view" name="hasPermissionToViewImage cannot view" time="0.022">
+    </testcase>
+  </testsuite>
+  <testsuite name="createAssessment, findAssessment" errors="0" failures="0" skipped="0" timestamp="2022-01-18T07:59:46" time="2.116" tests="12">
+    <testcase classname="createAssessment, findAssessment test creating and finding an assessment, default state" name="createAssessment, findAssessment test creating and finding an assessment, default state" time="0.446">
+    </testcase>
+    <testcase classname="createAssessment, findAssessment test creating and finding an assessment, specified state" name="createAssessment, findAssessment test creating and finding an assessment, specified state" time="0.038">
+    </testcase>
+    <testcase classname=" test getNumberOfAssessmentsInStudygroup" name=" test getNumberOfAssessmentsInStudygroup" time="0.023">
+    </testcase>
+    <testcase classname="findAssessmentsOfStudygroup teacher" name="findAssessmentsOfStudygroup teacher" time="0.033">
+    </testcase>
+    <testcase classname="findAssessmentsOfStudygroup student" name="findAssessmentsOfStudygroup student" time="0.028">
+    </testcase>
+    <testcase classname=" test updateAssessment - add studyset" name=" test updateAssessment - add studyset" time="0.034">
+    </testcase>
+    <testcase classname="findSummariesOfAssessmentsOfStudygroup teacher" name="findSummariesOfAssessmentsOfStudygroup teacher" time="0.019">
+    </testcase>
+    <testcase classname="findSummariesOfAssessmentsOfStudygroup student with submission" name="findSummariesOfAssessmentsOfStudygroup student with submission" time="0.018">
+    </testcase>
+    <testcase classname="findSummariesOfAssessmentsOfStudygroup student without submission" name="findSummariesOfAssessmentsOfStudygroup student without submission" time="0.014">
+    </testcase>
+    <testcase classname=" test deleteAssessment" name=" test deleteAssessment" time="0.024">
+    </testcase>
+    <testcase classname=" test deleteAssessmentsOfStudygroup" name=" test deleteAssessmentsOfStudygroup" time="0.018">
+    </testcase>
+    <testcase classname=" test deleteAssessmentsContainingtudyset" name=" test deleteAssessmentsContainingtudyset" time="0.02">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2022-01-18T07:59:46" time="2.485" tests="20">
+    <testcase classname=" it should rename the studyset" name=" it should rename the studyset" time="0.004">
+    </testcase>
+    <testcase classname=" it should change the studyset state to Draft" name=" it should change the studyset state to Draft" time="0.001">
+    </testcase>
+    <testcase classname=" it should should remove studyset id" name=" it should should remove studyset id" time="0">
+    </testcase>
+    <testcase classname=" it should remove studyset level" name=" it should remove studyset level" time="0.001">
+    </testcase>
+    <testcase classname=" it should remove studyset createdAt" name=" it should remove studyset createdAt" time="0">
+    </testcase>
+    <testcase classname=" it should remove studyset updatedAt" name=" it should remove studyset updatedAt" time="0">
+    </testcase>
+    <testcase classname=" it should move exercise._doc to exercise" name=" it should move exercise._doc to exercise" time="0.001">
+    </testcase>
+    <testcase classname=" it should do nothing if exercise._doc does not exist" name=" it should do nothing if exercise._doc does not exist" time="0">
+    </testcase>
+    <testcase classname=" it should remove exercise ids" name=" it should remove exercise ids" time="0.001">
+    </testcase>
+    <testcase classname=" it should remove exercise createdAt" name=" it should remove exercise createdAt" time="0.001">
+    </testcase>
+    <testcase classname=" it should remove exercise updatedAt" name=" it should remove exercise updatedAt" time="0">
+    </testcase>
+    <testcase classname=" it should convert exercise text answer " name=" it should convert exercise text answer " time="0.001">
+    </testcase>
+    <testcase classname=" it should not convert exercise text answer array" name=" it should not convert exercise text answer array" time="0">
+    </testcase>
+    <testcase classname=" it should not convert exercise structure answer " name=" it should not convert exercise structure answer " time="0.001">
+    </testcase>
+    <testcase classname=" it should remove viewer" name=" it should remove viewer" time="0">
+    </testcase>
+    <testcase classname=" it should add initial answerDisplaySetting, when it is null" name=" it should add initial answerDisplaySetting, when it is null" time="0.001">
+    </testcase>
+    <testcase classname=" it should preserve existing answerDisplaySetting" name=" it should preserve existing answerDisplaySetting" time="0">
+    </testcase>
+    <testcase classname=" it should do all the transformations that are required after copy" name=" it should do all the transformations that are required after copy" time="0.004">
+    </testcase>
+    <testcase classname=" it should do all the transformations that are required after copy - exercise._doc" name=" it should do all the transformations that are required after copy - exercise._doc" time="0.001">
+    </testcase>
+    <testcase classname=" saveCopiedStudyset should copy studyset and its images" name=" saveCopiedStudyset should copy studyset and its images" time="0.408">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2022-01-18T07:59:47" time="2.129" tests="11">
+    <testcase classname=" getActiveClassesOfPeriod" name=" getActiveClassesOfPeriod" time="0.281">
+    </testcase>
+    <testcase classname=" getStudentAndTeacherIds" name=" getStudentAndTeacherIds" time="0.05">
+    </testcase>
+    <testcase classname=" getNumberOfQuizCreators" name=" getNumberOfQuizCreators" time="0.026">
+    </testcase>
+    <testcase classname=" getNumberOfFinalizedQuizCreators" name=" getNumberOfFinalizedQuizCreators" time="0.068">
+    </testcase>
+    <testcase classname=" getClassCreatorIds" name=" getClassCreatorIds" time="0.035">
+    </testcase>
+    <testcase classname=" getClassActivityCreators" name=" getClassActivityCreators" time="0.027">
+    </testcase>
+    <testcase classname=" getTeachersWithStudents" name=" getTeachersWithStudents" time="0.068">
+    </testcase>
+    <testcase classname=" getTeachersWithStudentsAndActivity" name=" getTeachersWithStudentsAndActivity" time="0.034">
+    </testcase>
+    <testcase classname="getActivityCreatorsOfClass Active class" name="getActivityCreatorsOfClass Active class" time="0.042">
+    </testcase>
+    <testcase classname="getActivityCreatorsOfClass Closed class" name="getActivityCreatorsOfClass Closed class" time="0.033">
+    </testcase>
+    <testcase classname="getActivityCreatorsOfClass Prepared class" name="getActivityCreatorsOfClass Prepared class" time="0.015">
+    </testcase>
+  </testsuite>
+  <testsuite name="updateProfileAction" errors="0" failures="0" skipped="0" timestamp="2022-01-18T07:59:47" time="1.882" tests="3">
+    <testcase classname="updateProfileAction should update profile" name="updateProfileAction should update profile" time="0.006">
+    </testcase>
+    <testcase classname="updateProfileAction should add empty information" name="updateProfileAction should add empty information" time="0.004">
+    </testcase>
+    <testcase classname="updateProfileAction should return error" name="updateProfileAction should return error" time="0.051">
+    </testcase>
+  </testsuite>
+  <testsuite name="findEnabledFeatures" errors="0" failures="0" skipped="0" timestamp="2022-01-18T07:59:46" time="2.712" tests="19">
+    <testcase classname="findEnabledFeatures should return empty array when no features enabled" name="findEnabledFeatures should return empty array when no features enabled" time="0.432">
+    </testcase>
+    <testcase classname="findEnabledFeatures should return empty array when there is a feature but it&apos;s not enabled" name="findEnabledFeatures should return empty array when there is a feature but it&apos;s not enabled" time="0.13">
+    </testcase>
+    <testcase classname="findEnabledFeatures should return array with the enabled feature" name="findEnabledFeatures should return array with the enabled feature" time="0.077">
+    </testcase>
+    <testcase classname="findEnabledFeatures should return array with the enabled feature when it&apos;s enabled for multiple users" name="findEnabledFeatures should return array with the enabled feature when it&apos;s enabled for multiple users" time="0.042">
+    </testcase>
+    <testcase classname="findEnabledFeatures should return array with the enabled features when one is enabled for the user and one is global" name="findEnabledFeatures should return array with the enabled features when one is enabled for the user and one is global" time="0.027">
+    </testcase>
+    <testcase classname="findEnabledFeatures should return empty array when feature is enabled for a user on different platform" name="findEnabledFeatures should return empty array when feature is enabled for a user on different platform" time="0.03">
+    </testcase>
+    <testcase classname="findEnabledFeatures should return the enabled feature when it&apos;s enabled for the same platform" name="findEnabledFeatures should return the enabled feature when it&apos;s enabled for the same platform" time="0.026">
+    </testcase>
+    <testcase classname="findEnabledFeatures should return empty array when feature enabled for the same platform but with different clientId" name="findEnabledFeatures should return empty array when feature enabled for the same platform but with different clientId" time="0.018">
+    </testcase>
+    <testcase classname="findEnabledFeatures should return the global feature when userId is not set" name="findEnabledFeatures should return the global feature when userId is not set" time="0.02">
+    </testcase>
+    <testcase classname="isFeatureGloballyEnabled should return false for unknown features" name="isFeatureGloballyEnabled should return false for unknown features" time="0.02">
+    </testcase>
+    <testcase classname="isFeatureGloballyEnabled should return false for non-global features" name="isFeatureGloballyEnabled should return false for non-global features" time="0.028">
+    </testcase>
+    <testcase classname="isFeatureGloballyEnabled should return true for global features" name="isFeatureGloballyEnabled should return true for global features" time="0.046">
+    </testcase>
+    <testcase classname="isFeatureEnabled should return false for unknown features" name="isFeatureEnabled should return false for unknown features" time="0.019">
+    </testcase>
+    <testcase classname="isFeatureEnabled should return false for non-global features" name="isFeatureEnabled should return false for non-global features" time="0.02">
+    </testcase>
+    <testcase classname="isFeatureEnabled should return true for global features" name="isFeatureEnabled should return true for global features" time="0.021">
+    </testcase>
+    <testcase classname="isFeatureEnabled should return true for private features" name="isFeatureEnabled should return true for private features" time="0.024">
+    </testcase>
+    <testcase classname="isFeatureEnabled should return false for features enabled for users on other platform" name="isFeatureEnabled should return false for features enabled for users on other platform" time="0.023">
+    </testcase>
+    <testcase classname="isFeatureEnabled should return false for features enabled for users on the same platform but with different clientId" name="isFeatureEnabled should return false for features enabled for users on the same platform but with different clientId" time="0.018">
+    </testcase>
+    <testcase classname="isFeatureEnabled should return true for a feature enabled for the user for the same platform" name="isFeatureEnabled should return true for a feature enabled for the user for the same platform" time="0.02">
+    </testcase>
+  </testsuite>
+  <testsuite name="createStudygroupAction" errors="0" failures="0" skipped="0" timestamp="2022-01-18T07:59:40" time="9.014" tests="107">
+    <testcase classname="createStudygroupAction should create a new class with PREPARED state in the db" name="createStudygroupAction should create a new class with PREPARED state in the db" time="0.379">
+    </testcase>
+    <testcase classname="createStudygroupAction should create a new class, including practice studyset" name="createStudygroupAction should create a new class, including practice studyset" time="0.054">
+    </testcase>
+    <testcase classname="createStudygroupAction should throw not owned studyset error" name="createStudygroupAction should throw not owned studyset error" time="0.029">
+    </testcase>
+    <testcase classname="listMyStudygroupsAction should list teacher classes to add practice" name="listMyStudygroupsAction should list teacher classes to add practice" time="0.029">
+    </testcase>
+    <testcase classname="listMyStudygroupsAction should list teacher classes" name="listMyStudygroupsAction should list teacher classes" time="0.034">
+    </testcase>
+    <testcase classname="listMyStudygroupsAction should list student classes" name="listMyStudygroupsAction should list student classes" time="0.033">
+    </testcase>
+    <testcase classname="listMyStudygroupsAction should list pending student classes" name="listMyStudygroupsAction should list pending student classes" time="0.057">
+    </testcase>
+    <testcase classname="getStudygroupStudentsAction should list students - active class" name="getStudygroupStudentsAction should list students - active class" time="0.061">
+    </testcase>
+    <testcase classname="getStudygroupStudentsAction should list students - inactive class" name="getStudygroupStudentsAction should list students - inactive class" time="0.021">
+    </testcase>
+    <testcase classname="getStudygroupStudentsAction should throw error when no class found" name="getStudygroupStudentsAction should throw error when no class found" time="0.025">
+    </testcase>
+    <testcase classname="getStudygroupStudentsAction should throw error when not in class" name="getStudygroupStudentsAction should throw error when not in class" time="0.067">
+    </testcase>
+    <testcase classname="getStudygroupStudentsAction should throw error when not teacher" name="getStudygroupStudentsAction should throw error when not teacher" time="0.05">
+    </testcase>
+    <testcase classname="updateStudygroupUserAction should add teacher" name="updateStudygroupUserAction should add teacher" time="0.054">
+    </testcase>
+    <testcase classname="updateStudygroupUserAction add teacher who is already in class should throw error" name="updateStudygroupUserAction add teacher who is already in class should throw error" time="0.044">
+    </testcase>
+    <testcase classname="updateStudygroupUserAction add teacher no such email throw error" name="updateStudygroupUserAction add teacher no such email throw error" time="0.042">
+    </testcase>
+    <testcase classname="updateStudygroupUserAction add teacher by student should throw error" name="updateStudygroupUserAction add teacher by student should throw error" time="0.061">
+    </testcase>
+    <testcase classname="updateStudygroupUserAction student already in class" name="updateStudygroupUserAction student already in class" time="0.034">
+    </testcase>
+    <testcase classname="updateStudygroupUserAction should add student" name="updateStudygroupUserAction should add student" time="0.042">
+    </testcase>
+    <testcase classname="updateStudygroupUserAction should add pending student, when subscription limit is reached" name="updateStudygroupUserAction should add pending student, when subscription limit is reached" time="0.051">
+    </testcase>
+    <testcase classname="updateStudygroupUserAction should return classInfo for user already in class" name="updateStudygroupUserAction should return classInfo for user already in class" time="0.027">
+    </testcase>
+    <testcase classname="updateStudygroupUserAction should add pending student, then throw pending error CLOSED class" name="updateStudygroupUserAction should add pending student, then throw pending error CLOSED class" time="0.029">
+    </testcase>
+    <testcase classname="getStudygroupAboutAction teacher about" name="getStudygroupAboutAction teacher about" time="0.03">
+    </testcase>
+    <testcase classname="getStudygroupAboutAction student with activity about" name="getStudygroupAboutAction student with activity about" time="0.026">
+    </testcase>
+    <testcase classname="getStudygroupAboutAction student without activity about" name="getStudygroupAboutAction student without activity about" time="0.034">
+    </testcase>
+    <testcase classname="getStudygroupAboutAction not a member - error" name="getStudygroupAboutAction not a member - error" time="0.037">
+    </testcase>
+    <testcase classname="getStudysetsAction should list practice quizzes  - ACTIVE class, teacher" name="getStudysetsAction should list practice quizzes  - ACTIVE class, teacher" time="0.033">
+    </testcase>
+    <testcase classname="getStudysetsAction should list practice quizzes  - ACTIVE class, student" name="getStudysetsAction should list practice quizzes  - ACTIVE class, student" time="0.028">
+    </testcase>
+    <testcase classname="getStudysetsAction should list practice quizzes  - CLOSED class, teacher" name="getStudysetsAction should list practice quizzes  - CLOSED class, teacher" time="0.025">
+    </testcase>
+    <testcase classname="getStudysetsAction should throw error  - CLOSED class, student" name="getStudysetsAction should throw error  - CLOSED class, student" time="0.02">
+    </testcase>
+    <testcase classname="getStudysetsAction should list teacher quizzes  - ACTIVE class, teacher" name="getStudysetsAction should list teacher quizzes  - ACTIVE class, teacher" time="0.033">
+    </testcase>
+    <testcase classname="addStudysetToStudygroupAction teacher owns finished set" name="addStudysetToStudygroupAction teacher owns finished set" time="0.042">
+    </testcase>
+    <testcase classname="addStudysetToStudygroupAction teacher owns finished set CLOSED class" name="addStudysetToStudygroupAction teacher owns finished set CLOSED class" time="0.032">
+    </testcase>
+    <testcase classname="addStudysetToStudygroupAction teacher adds quiz already in class" name="addStudysetToStudygroupAction teacher adds quiz already in class" time="0.063">
+    </testcase>
+    <testcase classname="addStudysetToStudygroupAction teacher owns draft" name="addStudysetToStudygroupAction teacher owns draft" time="0.042">
+    </testcase>
+    <testcase classname="addStudysetToStudygroupAction teacher adds not owned studyset" name="addStudysetToStudygroupAction teacher adds not owned studyset" time="0.03">
+    </testcase>
+    <testcase classname="addStudysetToStudygroupAction student adds studyset" name="addStudysetToStudygroupAction student adds studyset" time="0.025">
+    </testcase>
+    <testcase classname="removeStudysetFromStudygroupAction should remove studyset teacher" name="removeStudysetFromStudygroupAction should remove studyset teacher" time="0.041">
+    </testcase>
+    <testcase classname="removeStudysetFromStudygroupAction quiz not in class" name="removeStudysetFromStudygroupAction quiz not in class" time="0.026">
+    </testcase>
+    <testcase classname="removeStudysetFromStudygroupAction student tries to remove studyset" name="removeStudysetFromStudygroupAction student tries to remove studyset" time="0.022">
+    </testcase>
+    <testcase classname="createSubmissionAndAddToGroupAction Active class, practice in class, teacher" name="createSubmissionAndAddToGroupAction Active class, practice in class, teacher" time="0.029">
+    </testcase>
+    <testcase classname="createSubmissionAndAddToGroupAction Active class, practice in class, student" name="createSubmissionAndAddToGroupAction Active class, practice in class, student" time="0.041">
+    </testcase>
+    <testcase classname="createSubmissionAndAddToGroupAction Active class, practice in class, pending" name="createSubmissionAndAddToGroupAction Active class, practice in class, pending" time="0.029">
+    </testcase>
+    <testcase classname="createSubmissionAndAddToGroupAction Active class, practice not in class, student" name="createSubmissionAndAddToGroupAction Active class, practice not in class, student" time="0.026">
+    </testcase>
+    <testcase classname="createSubmissionAndAddToGroupAction Active class, practice in class DRAFT, student" name="createSubmissionAndAddToGroupAction Active class, practice in class DRAFT, student" time="0.044">
+    </testcase>
+    <testcase classname="createSubmissionAndAddToGroupAction closed class, practice in class, teacher" name="createSubmissionAndAddToGroupAction closed class, practice in class, teacher" time="0.021">
+    </testcase>
+    <testcase classname="getStudyUnitSummariesAction should list summaries - teacher - active class" name="getStudyUnitSummariesAction should list summaries - teacher - active class" time="0.035">
+    </testcase>
+    <testcase classname="getStudyUnitSummariesAction should list summaries - student, assessment submissions - active class" name="getStudyUnitSummariesAction should list summaries - student, assessment submissions - active class" time="0.039">
+    </testcase>
+    <testcase classname="getStudyUnitSummariesAction should list summaries - student, no studyset submissions - active class" name="getStudyUnitSummariesAction should list summaries - student, no studyset submissions - active class" time="0.027">
+    </testcase>
+    <testcase classname="getStudyUnitSummariesAction should list summaries - teacher - closed class" name="getStudyUnitSummariesAction should list summaries - teacher - closed class" time="0.038">
+    </testcase>
+    <testcase classname="getStudyUnitSummariesAction should list summaries - student - not owned - closed class" name="getStudyUnitSummariesAction should list summaries - student - not owned - closed class" time="0.022">
+    </testcase>
+    <testcase classname="getStudyUnitSummariesAction should list summaries - student - owned - closed class" name="getStudyUnitSummariesAction should list summaries - student - owned - closed class" time="0.025">
+    </testcase>
+    <testcase classname="getSubmissionSummariesOfAssessmentAction teacher - active class" name="getSubmissionSummariesOfAssessmentAction teacher - active class" time="0.029">
+    </testcase>
+    <testcase classname="getSubmissionSummariesOfAssessmentAction teacher - export results" name="getSubmissionSummariesOfAssessmentAction teacher - export results" time="0.045">
+    </testcase>
+    <testcase classname="getSubmissionSummariesOfAssessmentAction student with submissions - active class" name="getSubmissionSummariesOfAssessmentAction student with submissions - active class" time="0.033">
+    </testcase>
+    <testcase classname="getSubmissionSummariesOfAssessmentAction student with no submissions - active class" name="getSubmissionSummariesOfAssessmentAction student with no submissions - active class" time="0.025">
+    </testcase>
+    <testcase classname="getSubmissionSummariesOfAssessmentAction assessment not in class" name="getSubmissionSummariesOfAssessmentAction assessment not in class" time="0.022">
+    </testcase>
+    <testcase classname="getSubmissionSummariesOfStudysetOfStudygroupAction teacher - active class" name="getSubmissionSummariesOfStudysetOfStudygroupAction teacher - active class" time="0.023">
+    </testcase>
+    <testcase classname="getSubmissionSummariesOfStudysetOfStudygroupAction student with submissions - active class" name="getSubmissionSummariesOfStudysetOfStudygroupAction student with submissions - active class" time="0.05">
+    </testcase>
+    <testcase classname="getSubmissionSummariesOfStudysetOfStudygroupAction student with no submissions - active class" name="getSubmissionSummariesOfStudysetOfStudygroupAction student with no submissions - active class" time="0.053">
+    </testcase>
+    <testcase classname="getSubmissionSummariesOfStudysetOfStudygroupAction studyset not in class" name="getSubmissionSummariesOfStudysetOfStudygroupAction studyset not in class" time="0.03">
+    </testcase>
+    <testcase classname="getAssessmentsAction should list assessments - ACTIVE class, teacher" name="getAssessmentsAction should list assessments - ACTIVE class, teacher" time="0.05">
+    </testcase>
+    <testcase classname="getAssessmentsAction should list assessments  - ACTIVE class, student" name="getAssessmentsAction should list assessments  - ACTIVE class, student" time="0.086">
+    </testcase>
+    <testcase classname="getAssessmentsAction should list assessments  - CLOSED class, teacher" name="getAssessmentsAction should list assessments  - CLOSED class, teacher" time="0.03">
+    </testcase>
+    <testcase classname="getAssessmentsAction should throw error  - CLOSED class, student" name="getAssessmentsAction should throw error  - CLOSED class, student" time="0.017">
+    </testcase>
+    <testcase classname="changeStudygroupApprovalAction should turn approval ON" name="changeStudygroupApprovalAction should turn approval ON" time="0.036">
+    </testcase>
+    <testcase classname="changeStudygroupApprovalAction should turn approval OFF" name="changeStudygroupApprovalAction should turn approval OFF" time="0.043">
+    </testcase>
+    <testcase classname="changeStudygroupApprovalAction should turn approval OFF - inactive class" name="changeStudygroupApprovalAction should turn approval OFF - inactive class" time="0.033">
+    </testcase>
+    <testcase classname="changeStudygroupApprovalAction should not turn approval OFF - subscription limit reached" name="changeStudygroupApprovalAction should not turn approval OFF - subscription limit reached" time="0.049">
+    </testcase>
+    <testcase classname="changeStudygroupApprovalAction approval OFF - error" name="changeStudygroupApprovalAction approval OFF - error" time="0.064">
+    </testcase>
+    <testcase classname="changeStudygroupApprovalAction should throw error when student tries" name="changeStudygroupApprovalAction should throw error when student tries" time="0.029">
+    </testcase>
+    <testcase classname="removeUsersAction should remove teacher" name="removeUsersAction should remove teacher" time="0.041">
+    </testcase>
+    <testcase classname="removeUsersAction teacher leaves" name="removeUsersAction teacher leaves" time="0.091">
+    </testcase>
+    <testcase classname="removeUsersAction cannot remove last teacher" name="removeUsersAction cannot remove last teacher" time="0.044">
+    </testcase>
+    <testcase classname="removeUsersAction cannot remove subscriber" name="removeUsersAction cannot remove subscriber" time="0.06">
+    </testcase>
+    <testcase classname="removeUsersAction should remove students" name="removeUsersAction should remove students" time="0.031">
+    </testcase>
+    <testcase classname="removeUsersAction should throw error when student tries" name="removeUsersAction should throw error when student tries" time="0.018">
+    </testcase>
+    <testcase classname="approveStudentsAction should approve student" name="approveStudentsAction should approve student" time="0.03">
+    </testcase>
+    <testcase classname="approveStudentsAction should approve student - inactive class" name="approveStudentsAction should approve student - inactive class" time="0.024">
+    </testcase>
+    <testcase classname="approveStudentsAction should throw error when subscription limit reached" name="approveStudentsAction should throw error when subscription limit reached" time="0.026">
+    </testcase>
+    <testcase classname="approveStudentsAction should throw error when student tries" name="approveStudentsAction should throw error when student tries" time="0.033">
+    </testcase>
+    <testcase classname="joinClassToSubscriptionAction teacher - enough places in pro subscription" name="joinClassToSubscriptionAction teacher - enough places in pro subscription" time="0.091">
+    </testcase>
+    <testcase classname="joinClassToSubscriptionAction teacher - enough places in pro subscription - managed modal" name="joinClassToSubscriptionAction teacher - enough places in pro subscription - managed modal" time="0.049">
+    </testcase>
+    <testcase classname="joinClassToSubscriptionAction teacher - trial subscription" name="joinClassToSubscriptionAction teacher - trial subscription" time="0.081">
+    </testcase>
+    <testcase classname="joinClassToSubscriptionAction teacher - trial subscription - managed modal" name="joinClassToSubscriptionAction teacher - trial subscription - managed modal" time="0.062">
+    </testcase>
+    <testcase classname="joinClassToSubscriptionAction teacher - class already active" name="joinClassToSubscriptionAction teacher - class already active" time="0.043">
+    </testcase>
+    <testcase classname="joinClassToSubscriptionAction teacher - trial subscription not possible" name="joinClassToSubscriptionAction teacher - trial subscription not possible" time="0.044">
+    </testcase>
+    <testcase classname="joinClassToSubscriptionAction teacher - not enough places in pro subscription" name="joinClassToSubscriptionAction teacher - not enough places in pro subscription" time="0.033">
+    </testcase>
+    <testcase classname="joinClassToSubscriptionAction teacher - no subscription, trial possible" name="joinClassToSubscriptionAction teacher - no subscription, trial possible" time="0.05">
+    </testcase>
+    <testcase classname="joinClassToSubscriptionAction teacher - no subscription, trial not possible 1" name="joinClassToSubscriptionAction teacher - no subscription, trial not possible 1" time="0.048">
+    </testcase>
+    <testcase classname="joinClassToSubscriptionAction teacher - no subscription, trial not possible 2" name="joinClassToSubscriptionAction teacher - no subscription, trial not possible 2" time="0.027">
+    </testcase>
+    <testcase classname="joinClassToSubscriptionAction teacher - no access to subscription" name="joinClassToSubscriptionAction teacher - no access to subscription" time="0.013">
+    </testcase>
+    <testcase classname="joinClassToSubscriptionAction student" name="joinClassToSubscriptionAction student" time="0.015">
+    </testcase>
+    <testcase classname="closeClassAction teacher - settings" name="closeClassAction teacher - settings" time="0.055">
+    </testcase>
+    <testcase classname="closeClassAction teacher - managed" name="closeClassAction teacher - managed" time="0.05">
+    </testcase>
+    <testcase classname="closeClassAction payer - managed" name="closeClassAction payer - managed" time="0.024">
+    </testcase>
+    <testcase classname="closeClassAction payer - settings" name="closeClassAction payer - settings" time="0.037">
+    </testcase>
+    <testcase classname="closeClassAction student" name="closeClassAction student" time="0.025">
+    </testcase>
+    <testcase classname="getManagedClasses Pro" name="getManagedClasses Pro" time="0.018">
+    </testcase>
+    <testcase classname="getManagedClasses Basic before trial" name="getManagedClasses Basic before trial" time="0.013">
+    </testcase>
+    <testcase classname="getManagedClasses Basic after trial" name="getManagedClasses Basic after trial" time="0.012">
+    </testcase>
+    <testcase classname="changeStudygroupDetails Teacher - valid change" name="changeStudygroupDetails Teacher - valid change" time="0.062">
+    </testcase>
+    <testcase classname="changeStudygroupDetails Teacher - invalid change" name="changeStudygroupDetails Teacher - invalid change" time="0.032">
+    </testcase>
+    <testcase classname="changeStudygroupDetails Student" name="changeStudygroupDetails Student" time="0.03">
+    </testcase>
+    <testcase classname="deleteStudygroupAction Teacher  - active class - error" name="deleteStudygroupAction Teacher  - active class - error" time="0.049">
+    </testcase>
+    <testcase classname="deleteStudygroupAction Teacher deletes class" name="deleteStudygroupAction Teacher deletes class" time="0.118">
+    </testcase>
+    <testcase classname="deleteStudygroupAction Teacher deletes blank class" name="deleteStudygroupAction Teacher deletes blank class" time="0.085">
+    </testcase>
+    <testcase classname="deleteStudygroupAction Not teacher - error" name="deleteStudygroupAction Not teacher - error" time="0.04">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2022-01-18T07:59:48" time="1.503" tests="5">
+    <testcase classname=" createResponse should set and call response with proper parameters" name=" createResponse should set and call response with proper parameters" time="0.004">
+    </testcase>
+    <testcase classname=" createErrorResponse should set and call response with proper parameters" name=" createErrorResponse should set and call response with proper parameters" time="0.001">
+    </testcase>
+    <testcase classname="loggerRequestHandlerFactory should audit log successful requests" name="loggerRequestHandlerFactory should audit log successful requests" time="0.01">
+    </testcase>
+    <testcase classname="loggerRequestHandlerFactory should audit log requests that fail while executing the prepare function" name="loggerRequestHandlerFactory should audit log requests that fail while executing the prepare function" time="0.005">
+    </testcase>
+    <testcase classname="loggerRequestHandlerFactory should audit log requests that fail while executing the run function with the extra audit fields" name="loggerRequestHandlerFactory should audit log requests that fail while executing the run function with the extra audit fields" time="0.003">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2022-01-18T07:59:48" time="1.853" tests="7">
+    <testcase classname=" Lti course" name=" Lti course" time="0.514">
+    </testcase>
+    <testcase classname=" isQuizInLtiCourse false" name=" isQuizInLtiCourse false" time="0.055">
+    </testcase>
+    <testcase classname=" isQuizInLtiCourse false2" name=" isQuizInLtiCourse false2" time="0.021">
+    </testcase>
+    <testcase classname=" isQuizInLtiCourse true" name=" isQuizInLtiCourse true" time="0.049">
+    </testcase>
+    <testcase classname=" Lti activity" name=" Lti activity" time="0.039">
+    </testcase>
+    <testcase classname=" isQuizLinkedToActivityInCourse false" name=" isQuizLinkedToActivityInCourse false" time="0.045">
+    </testcase>
+    <testcase classname=" isQuizLinkedToActivityInCourse true" name=" isQuizLinkedToActivityInCourse true" time="0.018">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2022-01-18T07:59:48" time="1.855" tests="11">
+    <testcase classname=" should check the permission to see the summary of incomplete submission" name=" should check the permission to see the summary of incomplete submission" time="0.555">
+    </testcase>
+    <testcase classname="calculateActiveExerciseIndex should return 0 if there is no submissions for either of the exercises" name="calculateActiveExerciseIndex should return 0 if there is no submissions for either of the exercises" time="0.001">
+    </testcase>
+    <testcase classname="calculateActiveExerciseIndex should return 1 if first exercise is filled correctly" name="calculateActiveExerciseIndex should return 1 if first exercise is filled correctly" time="0">
+    </testcase>
+    <testcase classname="calculateActiveExerciseIndex should return 0 if first exercise was wrong, but there are attempts left" name="calculateActiveExerciseIndex should return 0 if first exercise was wrong, but there are attempts left" time="0.001">
+    </testcase>
+    <testcase classname="calculateActiveExerciseIndex should return 1 if first exercise was wrong, and there are no attempts left" name="calculateActiveExerciseIndex should return 1 if first exercise was wrong, and there are no attempts left" time="0">
+    </testcase>
+    <testcase classname="calculateActiveExerciseIndex should return 1 after the last exercise - in case of two exercises in total" name="calculateActiveExerciseIndex should return 1 after the last exercise - in case of two exercises in total" time="0.001">
+    </testcase>
+    <testcase classname="calculateAttempt should return 1 if isCorrect length is 0" name="calculateAttempt should return 1 if isCorrect length is 0" time="0">
+    </testcase>
+    <testcase classname="calculateAttempt should return 2 if isCorrect length is 1" name="calculateAttempt should return 2 if isCorrect length is 1" time="0.001">
+    </testcase>
+    <testcase classname=" mergeStudysetAndSubmission" name=" mergeStudysetAndSubmission" time="0.003">
+    </testcase>
+    <testcase classname="isSubmissionFinished should return true if all exercises are correct or reached maxAttempt" name="isSubmissionFinished should return true if all exercises are correct or reached maxAttempt" time="0.001">
+    </testcase>
+    <testcase classname="isSubmissionFinished should return false if some exercises are incorrect and didn&apos;t reach maxAttempt" name="isSubmissionFinished should return false if some exercises are incorrect and didn&apos;t reach maxAttempt" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2022-01-18T07:59:48" time="1.686" tests="4">
+    <testcase classname=" List course quizzes - empty" name=" List course quizzes - empty" time="0.443">
+    </testcase>
+    <testcase classname=" List course quizzes" name=" List course quizzes" time="0.034">
+    </testcase>
+    <testcase classname=" List own quizzes empty" name=" List own quizzes empty" time="0.019">
+    </testcase>
+    <testcase classname=" List own quizzes" name=" List own quizzes" time="0.035">
+    </testcase>
+  </testsuite>
+  <testsuite name="hasExternalTeachers" errors="0" failures="0" skipped="0" timestamp="2022-01-18T07:59:49" time="1.32" tests="11">
+    <testcase classname="hasExternalTeachers all chemaxon" name="hasExternalTeachers all chemaxon" time="0.002">
+    </testcase>
+    <testcase classname="hasExternalTeachers mixed" name="hasExternalTeachers mixed" time="0">
+    </testcase>
+    <testcase classname="hasExternalTeachers no chemaxon" name="hasExternalTeachers no chemaxon" time="0.001">
+    </testcase>
+    <testcase classname="isExternalTeacher specified gmail address" name="isExternalTeacher specified gmail address" time="0">
+    </testcase>
+    <testcase classname="isExternalTeacher very similar to specified gmail address" name="isExternalTeacher very similar to specified gmail address" time="0">
+    </testcase>
+    <testcase classname="isExternalTeacher chemaxon.com" name="isExternalTeacher chemaxon.com" time="0.001">
+    </testcase>
+    <testcase classname="isExternalTeacher cxn.io" name="isExternalTeacher cxn.io" time="0">
+    </testcase>
+    <testcase classname="isExternalTeacher external" name="isExternalTeacher external" time="0">
+    </testcase>
+    <testcase classname="anonymizeTeachers should return email endings" name="anonymizeTeachers should return email endings" time="0.002">
+    </testcase>
+    <testcase classname="hasAllTeacherInfo OK" name="hasAllTeacherInfo OK" time="0.001">
+    </testcase>
+    <testcase classname="hasAllTeacherInfo one email is missing" name="hasAllTeacherInfo one email is missing" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2022-01-18T07:59:48" time="1.508" tests="1">
+    <testcase classname=" test creating log" name=" test creating log" time="0.175">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2022-01-18T07:59:48" time="1.749" tests="4">
+    <testcase classname=" test deleteSubmissionsOfStudygroup" name=" test deleteSubmissionsOfStudygroup" time="0.399">
+    </testcase>
+    <testcase classname="getPracticeSubmissionsOfStudyset has submissions" name="getPracticeSubmissionsOfStudyset has submissions" time="0.023">
+    </testcase>
+    <testcase classname="getPracticeSubmissionsOfStudyset has no submissions" name="getPracticeSubmissionsOfStudyset has no submissions" time="0.02">
+    </testcase>
+    <testcase classname="getAssessmentSummaryForExport One student submitted, one did not start" name="getAssessmentSummaryForExport One student submitted, one did not start" time="0.048">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2022-01-18T07:59:48" time="1.66" tests="6">
+    <testcase classname=" createPayment, findPaymentOfUser" name=" createPayment, findPaymentOfUser" time="0.324">
+    </testcase>
+    <testcase classname=" findPaymentOfUser" name=" findPaymentOfUser" time="0.035">
+    </testcase>
+    <testcase classname=" updatePaymentOfUser" name=" updatePaymentOfUser" time="0.056">
+    </testcase>
+    <testcase classname=" addEndDateToPayment" name=" addEndDateToPayment" time="0.038">
+    </testcase>
+    <testcase classname=" removeEndDateFromPayment" name=" removeEndDateFromPayment" time="0.049">
+    </testcase>
+    <testcase classname=" setTrialUseOfPayment" name=" setTrialUseOfPayment" time="0.022">
+    </testcase>
+  </testsuite>
+  <testsuite name="findPlanId" errors="0" failures="0" skipped="0" timestamp="2022-01-18T07:59:49" time="1.218" tests="14">
+    <testcase classname="findPlanId findPlanId 5" name="findPlanId findPlanId 5" time="0.003">
+    </testcase>
+    <testcase classname="findPlanId findPlanId 10" name="findPlanId findPlanId 10" time="0">
+    </testcase>
+    <testcase classname="getStripePlan getStripePlan TRIAL" name="getStripePlan getStripePlan TRIAL" time="0.001">
+    </testcase>
+    <testcase classname="getStripePlan getStripePlan DURATION 5" name="getStripePlan getStripePlan DURATION 5" time="0">
+    </testcase>
+    <testcase classname="getStripePlan getStripePlan DURATION 12" name="getStripePlan getStripePlan DURATION 12" time="0.001">
+    </testcase>
+    <testcase classname="getCustomSubscriptionParams getCustomSubscriptionParams TRIAL" name="getCustomSubscriptionParams getCustomSubscriptionParams TRIAL" time="0.001">
+    </testcase>
+    <testcase classname="getCustomSubscriptionParams getCustomSubscriptionParams IMMEDIATE DURATION" name="getCustomSubscriptionParams getCustomSubscriptionParams IMMEDIATE DURATION" time="0">
+    </testcase>
+    <testcase classname="getCustomSubscriptionParams getCustomSubscriptionParams IMMEDIATE FIX_END" name="getCustomSubscriptionParams getCustomSubscriptionParams IMMEDIATE FIX_END" time="0.001">
+    </testcase>
+    <testcase classname="getCustomSubscriptionParams getCustomSubscriptionParams TRANSFER_PAYMENT DURATION" name="getCustomSubscriptionParams getCustomSubscriptionParams TRANSFER_PAYMENT DURATION" time="0">
+    </testcase>
+    <testcase classname="getCustomSubscriptionParams getCustomSubscriptionParams TRANSFER_PAYMENT FIX_END" name="getCustomSubscriptionParams getCustomSubscriptionParams TRANSFER_PAYMENT FIX_END" time="0">
+    </testcase>
+    <testcase classname="processTrialData processTrialData no trial" name="processTrialData processTrialData no trial" time="0">
+    </testcase>
+    <testcase classname="processTrialData processTrialData trial" name="processTrialData processTrialData trial" time="0">
+    </testcase>
+    <testcase classname=" processActiveSubscriptionData" name=" processActiveSubscriptionData" time="0.001">
+    </testcase>
+    <testcase classname=" summarizeQuantitiesOfPeriod" name=" summarizeQuantitiesOfPeriod" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="addViewerErrorChecker" errors="0" failures="0" skipped="0" timestamp="2022-01-18T07:59:48" time="1.549" tests="8">
+    <testcase classname="addViewerErrorChecker no identifier" name="addViewerErrorChecker no identifier" time="0.002">
+    </testcase>
+    <testcase classname="addViewerErrorChecker identifier error" name="addViewerErrorChecker identifier error" time="0">
+    </testcase>
+    <testcase classname="addViewerErrorChecker no user was found" name="addViewerErrorChecker no user was found" time="0">
+    </testcase>
+    <testcase classname="addViewerErrorChecker more than one user" name="addViewerErrorChecker more than one user" time="0.001">
+    </testcase>
+    <testcase classname="addViewerErrorChecker more than one user, all added" name="addViewerErrorChecker more than one user, all added" time="0.001">
+    </testcase>
+    <testcase classname="addViewerErrorChecker already added viewer" name="addViewerErrorChecker already added viewer" time="0">
+    </testcase>
+    <testcase classname="addViewerErrorChecker quiz owner" name="addViewerErrorChecker quiz owner" time="0">
+    </testcase>
+    <testcase classname="addViewerErrorChecker no error" name="addViewerErrorChecker no error" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2022-01-18T07:59:49" time="1.046" tests="19">
+    <testcase classname=" getUserInformation - it should truncate email address" name=" getUserInformation - it should truncate email address" time="0.011">
+    </testcase>
+    <testcase classname=" getUserInformation - it should not truncate email address" name=" getUserInformation - it should not truncate email address" time="0.001">
+    </testcase>
+    <testcase classname=" getProfileInformation" name=" getProfileInformation" time="0.001">
+    </testcase>
+    <testcase classname="getUserInformation with custom names unchanged social media" name="getUserInformation with custom names unchanged social media" time="0.001">
+    </testcase>
+    <testcase classname="getUserInformation with custom names unchanged user password user" name="getUserInformation with custom names unchanged user password user" time="0.001">
+    </testcase>
+    <testcase classname="getUserInformation with custom names name added to user pwd user" name="getUserInformation with custom names name added to user pwd user" time="0">
+    </testcase>
+    <testcase classname="getUserInformation with custom names customized social media user" name="getUserInformation with custom names customized social media user" time="0.001">
+    </testcase>
+    <testcase classname="getUserInformation with custom names social media user with deleted name" name="getUserInformation with custom names social media user with deleted name" time="0">
+    </testcase>
+    <testcase classname="getName should return customName" name="getName should return customName" time="0">
+    </testcase>
+    <testcase classname="getName should return email if it is empty string" name="getName should return email if it is empty string" time="0">
+    </testcase>
+    <testcase classname="getName should return email when it is same as name" name="getName should return email when it is same as name" time="0.001">
+    </testcase>
+    <testcase classname="getName should return name" name="getName should return name" time="0">
+    </testcase>
+    <testcase classname="getName should truncate email" name="getName should truncate email" time="0">
+    </testcase>
+    <testcase classname="areAllUserInfosEmpty should return true when all userInfo is empty" name="areAllUserInfosEmpty should return true when all userInfo is empty" time="0.001">
+    </testcase>
+    <testcase classname="areAllUserInfosEmpty should return false, when at least one userInfo field contains data" name="areAllUserInfosEmpty should return false, when at least one userInfo field contains data" time="0">
+    </testcase>
+    <testcase classname="findUserInfo should return info if found" name="findUserInfo should return info if found" time="0.001">
+    </testcase>
+    <testcase classname="findUserInfo should return empty info if not found" name="findUserInfo should return empty info if not found" time="0">
+    </testcase>
+    <testcase classname="findUserInfo should return info unavailable, when userInfoObject is empty" name="findUserInfo should return info unavailable, when userInfoObject is empty" time="0">
+    </testcase>
+    <testcase classname="findUserInfo should return wrong settings when all userInfo is empty" name="findUserInfo should return wrong settings when all userInfo is empty" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="submissionCompareFunction" errors="0" failures="0" skipped="0" timestamp="2022-01-18T07:59:48" time="1.555" tests="10">
+    <testcase classname="submissionCompareFunction different last name" name="submissionCompareFunction different last name" time="0.002">
+    </testcase>
+    <testcase classname="submissionCompareFunction same last name, different first name" name="submissionCompareFunction same last name, different first name" time="0.001">
+    </testcase>
+    <testcase classname="submissionCompareFunction same name, different email" name="submissionCompareFunction same name, different email" time="0">
+    </testcase>
+    <testcase classname="submissionCompareFunction same name, same email, different date" name="submissionCompareFunction same name, same email, different date" time="0.001">
+    </testcase>
+    <testcase classname="submissionCompareFunction same name, same email, same date" name="submissionCompareFunction same name, same email, same date" time="0">
+    </testcase>
+    <testcase classname="splitName Explicit first and last names" name="splitName Explicit first and last names" time="0.002">
+    </testcase>
+    <testcase classname="splitName Name with comma" name="splitName Name with comma" time="0">
+    </testcase>
+    <testcase classname="splitName Name with space" name="splitName Name with space" time="0.001">
+    </testcase>
+    <testcase classname="splitName No name" name="splitName No name" time="0">
+    </testcase>
+    <testcase classname="splitName No submitterInfo" name="splitName No submitterInfo" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="addTeacherErrorChecker" errors="0" failures="0" skipped="0" timestamp="2022-01-18T07:59:48" time="1.628" tests="8">
+    <testcase classname="addTeacherErrorChecker no identifier" name="addTeacherErrorChecker no identifier" time="0.008">
+    </testcase>
+    <testcase classname="addTeacherErrorChecker identifier error" name="addTeacherErrorChecker identifier error" time="0.001">
+    </testcase>
+    <testcase classname="addTeacherErrorChecker student cannot add teacher" name="addTeacherErrorChecker student cannot add teacher" time="0.001">
+    </testcase>
+    <testcase classname="addTeacherErrorChecker no user was found" name="addTeacherErrorChecker no user was found" time="0.03">
+    </testcase>
+    <testcase classname="addTeacherErrorChecker more than one user" name="addTeacherErrorChecker more than one user" time="0.002">
+    </testcase>
+    <testcase classname="addTeacherErrorChecker more than one user, all added" name="addTeacherErrorChecker more than one user, all added" time="0">
+    </testcase>
+    <testcase classname="addTeacherErrorChecker already added teacher" name="addTeacherErrorChecker already added teacher" time="0.001">
+    </testcase>
+    <testcase classname="addTeacherErrorChecker no error" name="addTeacherErrorChecker no error" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2022-01-18T07:59:49" time="1.087" tests="1">
+    <testcase classname=" searchForCachedProfiles" name=" searchForCachedProfiles" time="0.004">
+    </testcase>
+  </testsuite>
+  <testsuite name="isQuestionUpdate" errors="0" failures="0" skipped="0" timestamp="2022-01-18T07:59:50" time="0.235" tests="56">
+    <testcase classname="isQuestionUpdate question is defined" name="isQuestionUpdate question is defined" time="0.001">
+    </testcase>
+    <testcase classname="isQuestionUpdate question is empty string" name="isQuestionUpdate question is empty string" time="0">
+    </testcase>
+    <testcase classname="isQuestionUpdate question is undefined" name="isQuestionUpdate question is undefined" time="0">
+    </testcase>
+    <testcase classname="isExerciseTypeUpdate type is defined" name="isExerciseTypeUpdate type is defined" time="0.001">
+    </testcase>
+    <testcase classname="isExerciseTypeUpdate type is empty string" name="isExerciseTypeUpdate type is empty string" time="0">
+    </testcase>
+    <testcase classname="isExerciseTypeUpdate type is undefined" name="isExerciseTypeUpdate type is undefined" time="0">
+    </testcase>
+    <testcase classname="isQuestionDisplaySettingsUpdate question display setting" name="isQuestionDisplaySettingsUpdate question display setting" time="0">
+    </testcase>
+    <testcase classname="isQuestionDisplaySettingsUpdate non question display settings" name="isQuestionDisplaySettingsUpdate non question display settings" time="0">
+    </testcase>
+    <testcase classname="isQuestionDisplaySettingsUpdate non display settings" name="isQuestionDisplaySettingsUpdate non display settings" time="0.001">
+    </testcase>
+    <testcase classname="isAnswerDisplaySettingsUpdate question display setting" name="isAnswerDisplaySettingsUpdate question display setting" time="0">
+    </testcase>
+    <testcase classname="isAnswerDisplaySettingsUpdate non question display settings" name="isAnswerDisplaySettingsUpdate non question display settings" time="0">
+    </testcase>
+    <testcase classname="isAnswerDisplaySettingsUpdate non display settings" name="isAnswerDisplaySettingsUpdate non display settings" time="0">
+    </testcase>
+    <testcase classname="isStructureAnswerDisplaySettingsUpdate question display setting" name="isStructureAnswerDisplaySettingsUpdate question display setting" time="0">
+    </testcase>
+    <testcase classname="isStructureAnswerDisplaySettingsUpdate non question display settings" name="isStructureAnswerDisplaySettingsUpdate non question display settings" time="0">
+    </testcase>
+    <testcase classname="isStructureAnswerDisplaySettingsUpdate non display settings" name="isStructureAnswerDisplaySettingsUpdate non display settings" time="0.001">
+    </testcase>
+    <testcase classname="isCorrectOptionUpdate answer and answerOptions defined" name="isCorrectOptionUpdate answer and answerOptions defined" time="0">
+    </testcase>
+    <testcase classname="isCorrectOptionUpdate answer undefined and answerOptions defined" name="isCorrectOptionUpdate answer undefined and answerOptions defined" time="0">
+    </testcase>
+    <testcase classname="isCorrectOptionUpdate answer defined and answerOptions undefined" name="isCorrectOptionUpdate answer defined and answerOptions undefined" time="0">
+    </testcase>
+    <testcase classname="isCorrectOptionUpdate answer and answerOptions are undefined" name="isCorrectOptionUpdate answer and answerOptions are undefined" time="0">
+    </testcase>
+    <testcase classname="isAnswerUpdate answer and answerOptions defined" name="isAnswerUpdate answer and answerOptions defined" time="0">
+    </testcase>
+    <testcase classname="isAnswerUpdate answer undefined and answerOptions defined" name="isAnswerUpdate answer undefined and answerOptions defined" time="0">
+    </testcase>
+    <testcase classname="isAnswerUpdate answer defined and answerOptions undefined" name="isAnswerUpdate answer defined and answerOptions undefined" time="0.001">
+    </testcase>
+    <testcase classname="isAnswerUpdate answer and answerOptions are undefined" name="isAnswerUpdate answer and answerOptions are undefined" time="0">
+    </testcase>
+    <testcase classname="isAnswerDeletion answer defined" name="isAnswerDeletion answer defined" time="0">
+    </testcase>
+    <testcase classname="isAnswerDeletion answer is empty string" name="isAnswerDeletion answer is empty string" time="0">
+    </testcase>
+    <testcase classname="isAnswerDeletion answerImage is empty string" name="isAnswerDeletion answerImage is empty string" time="0">
+    </testcase>
+    <testcase classname="isAnswerDeletion answer and answerOptions are undefined" name="isAnswerDeletion answer and answerOptions are undefined" time="0">
+    </testcase>
+    <testcase classname="isQuestionImageDeletion questionImage empty string" name="isQuestionImageDeletion questionImage empty string" time="0">
+    </testcase>
+    <testcase classname="isQuestionImageDeletion questionImage is a string" name="isQuestionImageDeletion questionImage is a string" time="0.001">
+    </testcase>
+    <testcase classname="isQuestionImageDeletion questionImage is undefined" name="isQuestionImageDeletion questionImage is undefined" time="0">
+    </testcase>
+    <testcase classname="isQuestionImageUpdate questionImageMol and questionImage defined" name="isQuestionImageUpdate questionImageMol and questionImage defined" time="0">
+    </testcase>
+    <testcase classname="isQuestionImageUpdate questionImage undefined and questionImageMol defined" name="isQuestionImageUpdate questionImage undefined and questionImageMol defined" time="0.001">
+    </testcase>
+    <testcase classname="isQuestionImageUpdate questionImage defined and questionImageMol undefined" name="isQuestionImageUpdate questionImage defined and questionImageMol undefined" time="0">
+    </testcase>
+    <testcase classname="isQuestionImageUpdate questionImage and questionImageMol are undefined" name="isQuestionImageUpdate questionImage and questionImageMol are undefined" time="0">
+    </testcase>
+    <testcase classname="isStarterUpdate starter and starterImage defined" name="isStarterUpdate starter and starterImage defined" time="0">
+    </testcase>
+    <testcase classname="isStarterUpdate starter undefined and starterImage defined" name="isStarterUpdate starter undefined and starterImage defined" time="0">
+    </testcase>
+    <testcase classname="isStarterUpdate starter defined and starterImage undefined" name="isStarterUpdate starter defined and starterImage undefined" time="0">
+    </testcase>
+    <testcase classname="isStarterUpdate starter and starterImage are undefined" name="isStarterUpdate starter and starterImage are undefined" time="0">
+    </testcase>
+    <testcase classname="isStarterDeletion starterImage empty string" name="isStarterDeletion starterImage empty string" time="0.001">
+    </testcase>
+    <testcase classname="isStarterDeletion starterImage has value" name="isStarterDeletion starterImage has value" time="0">
+    </testcase>
+    <testcase classname="isStarterDeletion starterImage undefined" name="isStarterDeletion starterImage undefined" time="0">
+    </testcase>
+    <testcase classname="isMaxAttemptUpdate maxAttempt with value" name="isMaxAttemptUpdate maxAttempt with value" time="0">
+    </testcase>
+    <testcase classname="isMaxAttemptUpdate maxAttempt with 0 value" name="isMaxAttemptUpdate maxAttempt with 0 value" time="0">
+    </testcase>
+    <testcase classname="isMaxAttemptUpdate maxAttempt is undefined" name="isMaxAttemptUpdate maxAttempt is undefined" time="0">
+    </testcase>
+    <testcase classname="isMaxScoreUpdate maxScore with value" name="isMaxScoreUpdate maxScore with value" time="0">
+    </testcase>
+    <testcase classname="isMaxScoreUpdate maxScore with 0 value" name="isMaxScoreUpdate maxScore with 0 value" time="0">
+    </testcase>
+    <testcase classname="isMaxScoreUpdate maxScore is undefined" name="isMaxScoreUpdate maxScore is undefined" time="0">
+    </testcase>
+    <testcase classname="isMultipleChoiceDisplaySettingUpdate multiple choice display setting" name="isMultipleChoiceDisplaySettingUpdate multiple choice display setting" time="0">
+    </testcase>
+    <testcase classname="isMultipleChoiceDisplaySettingUpdate non multiple choice settings" name="isMultipleChoiceDisplaySettingUpdate non multiple choice settings" time="0">
+    </testcase>
+    <testcase classname="isMultipleChoiceDisplaySettingUpdate non display settings" name="isMultipleChoiceDisplaySettingUpdate non display settings" time="0">
+    </testcase>
+    <testcase classname="isAnswerOptionsUpdate answerOptions with value" name="isAnswerOptionsUpdate answerOptions with value" time="0.001">
+    </testcase>
+    <testcase classname="isAnswerOptionsUpdate answerOptions with empty string value" name="isAnswerOptionsUpdate answerOptions with empty string value" time="0">
+    </testcase>
+    <testcase classname="isAnswerOptionsUpdate answerOptions is undefined" name="isAnswerOptionsUpdate answerOptions is undefined" time="0">
+    </testcase>
+    <testcase classname="isExplanationUpdate explanation with value" name="isExplanationUpdate explanation with value" time="0">
+    </testcase>
+    <testcase classname="isExplanationUpdate explanation with empty string value" name="isExplanationUpdate explanation with empty string value" time="0">
+    </testcase>
+    <testcase classname="isExplanationUpdate explanation is undefined" name="isExplanationUpdate explanation is undefined" time="0.008">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2022-01-18T07:59:50" time="0.248" tests="11">
+    <testcase classname=" should check simple text answers - same should match" name=" should check simple text answers - same should match" time="0.003">
+    </testcase>
+    <testcase classname=" should check simple text answers - uppercase should match" name=" should check simple text answers - uppercase should match" time="0">
+    </testcase>
+    <testcase classname=" should check simple text answers - different answer should not match" name=" should check simple text answers - different answer should not match" time="0">
+    </testcase>
+    <testcase classname=" should check multiple answer possibilites - correct answer should match" name=" should check multiple answer possibilites - correct answer should match" time="0.001">
+    </testcase>
+    <testcase classname=" should check multiple answer possibilites - correct answer should match" name=" should check multiple answer possibilites - correct answer should match" time="0.001">
+    </testcase>
+    <testcase classname=" should check multiple answer possibilites - uppercase and space should match" name=" should check multiple answer possibilites - uppercase and space should match" time="0">
+    </testcase>
+    <testcase classname=" should check spaces should be merged and trimmed" name=" should check spaces should be merged and trimmed" time="0">
+    </testcase>
+    <testcase classname=" should check spaces should be merged and trimmed" name=" should check spaces should be merged and trimmed" time="0.001">
+    </testcase>
+    <testcase classname=" should check spaces should be merged but should be not ignored in the middle of the word" name=" should check spaces should be merged but should be not ignored in the middle of the word" time="0">
+    </testcase>
+    <testcase classname=" should check when answer value is null" name=" should check when answer value is null" time="0.001">
+    </testcase>
+    <testcase classname=" should check multiple answer possibilites - wrong answer should not match" name=" should check multiple answer possibilites - wrong answer should not match" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="defaultGrading tests:" errors="0" failures="0" skipped="0" timestamp="2022-01-18T07:59:50" time="0.267" tests="4">
+    <testcase classname="defaultGrading tests: isLastAttempt should return true if answer was correct" name="defaultGrading tests: isLastAttempt should return true if answer was correct" time="0.001">
+    </testcase>
+    <testcase classname="defaultGrading tests: isLastAttempt should return true if answer was incorrect, but reached max attempt" name="defaultGrading tests: isLastAttempt should return true if answer was incorrect, but reached max attempt" time="0">
+    </testcase>
+    <testcase classname="defaultGrading tests: isLastAttempt should return false if answer was incorrect, but there are more attempts available" name="defaultGrading tests: isLastAttempt should return false if answer was incorrect, but there are more attempts available" time="0">
+    </testcase>
+    <testcase classname="defaultGrading tests: attemptsLeft should give back attempts left based on maxAttempts and current attempt" name="defaultGrading tests: attemptsLeft should give back attempts left based on maxAttempts and current attempt" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2022-01-18T07:59:50" time="0.14" tests="1">
+    <testcase classname=" All event records should be unique" name=" All event records should be unique" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="concatenateFirstAndLastName" errors="0" failures="0" skipped="0" timestamp="2022-01-18T07:59:50" time="0.148" tests="4">
+    <testcase classname="concatenateFirstAndLastName should add first and last name" name="concatenateFirstAndLastName should add first and last name" time="0.002">
+    </testcase>
+    <testcase classname="concatenateFirstAndLastName should add only first name" name="concatenateFirstAndLastName should add only first name" time="0">
+    </testcase>
+    <testcase classname="concatenateFirstAndLastName should add only last name" name="concatenateFirstAndLastName should add only last name" time="0.001">
+    </testcase>
+    <testcase classname="concatenateFirstAndLastName should be empty if both first and last name are empty" name="concatenateFirstAndLastName should be empty if both first and last name are empty" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="multipleChoiceChecker" errors="0" failures="0" skipped="0" timestamp="2022-01-18T07:59:50" time="0.306" tests="3">
+    <testcase classname="multipleChoiceChecker should return true if given answers and correctAnswers are the same" name="multipleChoiceChecker should return true if given answers and correctAnswers are the same" time="0.001">
+    </testcase>
+    <testcase classname="multipleChoiceChecker should return false if given answers and correctAnswers length are different" name="multipleChoiceChecker should return false if given answers and correctAnswers length are different" time="0.001">
+    </testcase>
+    <testcase classname="multipleChoiceChecker should return false if given answers and correctAnswers length are the same, but content is different" name="multipleChoiceChecker should return false if given answers and correctAnswers length are the same, but content is different" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="getLogLevel" errors="0" failures="0" skipped="0" timestamp="2022-01-18T07:59:50" time="0.163" tests="11">
+    <testcase classname="getLogLevel should return &apos;error&apos; when eventName is not in config" name="getLogLevel should return &apos;error&apos; when eventName is not in config" time="0.003">
+    </testcase>
+    <testcase classname="getLogLevel should return &apos;error&apos; when eventName is set in config" name="getLogLevel should return &apos;error&apos; when eventName is set in config" time="0.008">
+    </testcase>
+    <testcase classname="getLogLevel should return &apos;critical&apos; when eventName is set in config" name="getLogLevel should return &apos;critical&apos; when eventName is set in config" time="0">
+    </testcase>
+    <testcase classname="getLogLevel should return &apos;alert&apos; when eventName is set in config" name="getLogLevel should return &apos;alert&apos; when eventName is set in config" time="0">
+    </testcase>
+    <testcase classname="getLogLevel should return &apos;emergency&apos; when eventName is set in config" name="getLogLevel should return &apos;emergency&apos; when eventName is set in config" time="0">
+    </testcase>
+    <testcase classname="getLogLevel should return &apos;emergency&apos; when message is matched in string" name="getLogLevel should return &apos;emergency&apos; when message is matched in string" time="0.001">
+    </testcase>
+    <testcase classname="getLogLevel should return &apos;emergency&apos; when message is matched in object" name="getLogLevel should return &apos;emergency&apos; when message is matched in object" time="0">
+    </testcase>
+    <testcase classname="getLogLevel should return &apos;emergency&apos; when message is matched in array" name="getLogLevel should return &apos;emergency&apos; when message is matched in array" time="0">
+    </testcase>
+    <testcase classname="getLogLevel should return &apos;error&apos; (default) when message is not matched (case sensitive)" name="getLogLevel should return &apos;error&apos; (default) when message is not matched (case sensitive)" time="0">
+    </testcase>
+    <testcase classname="getLogLevel should return &apos;error&apos; when eventName is excluded by message" name="getLogLevel should return &apos;error&apos; when eventName is excluded by message" time="0.001">
+    </testcase>
+    <testcase classname="getLogLevel should return &apos;critical&apos; when eventName is not excluded by message" name="getLogLevel should return &apos;critical&apos; when eventName is not excluded by message" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="fetchWrappers" errors="0" failures="0" skipped="0" timestamp="2022-01-18T07:59:50" time="0.444" tests="13">
+    <testcase classname="fetchWrappers get should call fetch API" name="fetchWrappers get should call fetch API" time="0.002">
+    </testcase>
+    <testcase classname="fetchWrappers get should return JSON" name="fetchWrappers get should return JSON" time="0">
+    </testcase>
+    <testcase classname="fetchWrappers get should log stack when getting error" name="fetchWrappers get should log stack when getting error" time="0.004">
+    </testcase>
+    <testcase classname="fetchWrappers getRaw should call fetch API" name="fetchWrappers getRaw should call fetch API" time="0.001">
+    </testcase>
+    <testcase classname="fetchWrappers getRaw should return JSON" name="fetchWrappers getRaw should return JSON" time="0">
+    </testcase>
+    <testcase classname="fetchWrappers getRaw should log stack when getting error" name="fetchWrappers getRaw should log stack when getting error" time="0">
+    </testcase>
+    <testcase classname="fetchWrappers post should call fetch API" name="fetchWrappers post should call fetch API" time="0">
+    </testcase>
+    <testcase classname="fetchWrappers post should generate token if tokenScope is present" name="fetchWrappers post should generate token if tokenScope is present" time="0">
+    </testcase>
+    <testcase classname="fetchWrappers post should return Object when content-type is application/json" name="fetchWrappers post should return Object when content-type is application/json" time="0.001">
+    </testcase>
+    <testcase classname="fetchWrappers post should return Object when content-type is application/json with charset" name="fetchWrappers post should return Object when content-type is application/json with charset" time="0">
+    </testcase>
+    <testcase classname="fetchWrappers post should return Object when content-type is text/html" name="fetchWrappers post should return Object when content-type is text/html" time="0">
+    </testcase>
+    <testcase classname="fetchWrappers post should return Object when content-type is application/json with charset" name="fetchWrappers post should return Object when content-type is application/json with charset" time="0.002">
+    </testcase>
+    <testcase classname="fetchWrappers post should return raw response when content-type is not application/json nor text/html" name="fetchWrappers post should return raw response when content-type is not application/json nor text/html" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="getDbUriWithName" errors="0" failures="0" skipped="1" timestamp="2022-01-18T07:59:50" time="0.91" tests="11">
+    <testcase classname="getDbUriWithName should return uri if there is no own variable for db name" name="getDbUriWithName should return uri if there is no own variable for db name" time="0.001">
+    </testcase>
+    <testcase classname="getDbUriWithName should return uri with db name if db name is present in its own variable" name="getDbUriWithName should return uri with db name if db name is present in its own variable" time="0">
+    </testcase>
+    <testcase classname="getDbConnectOptioins should return null for both auth parameters, if credentials are not present in env" name="getDbConnectOptioins should return null for both auth parameters, if credentials are not present in env" time="0.002">
+    </testcase>
+    <testcase classname="getDbConnectOptioins should return auth parameters in object if they are present in env" name="getDbConnectOptioins should return auth parameters in object if they are present in env" time="0">
+    </testcase>
+    <testcase classname="getDbName should return db name if there is own variable for db name" name="getDbName should return db name if there is own variable for db name" time="0.001">
+    </testcase>
+    <testcase classname="getDbName should extract db name from uri if db name is not present in env" name="getDbName should extract db name from uri if db name is not present in env" time="0">
+    </testcase>
+    <testcase classname="getDbName should extract db name from uri if db name is not present in env and uri have options in it" name="getDbName should extract db name from uri if db name is not present in env and uri have options in it" time="0">
+    </testcase>
+    <testcase classname="isObjectIdIncludedInList should return true if objectId is in list" name="isObjectIdIncludedInList should return true if objectId is in list" time="0">
+    </testcase>
+    <testcase classname="isObjectIdIncludedInList should return false if objectId is not in list" name="isObjectIdIncludedInList should return false if objectId is not in list" time="0">
+    </testcase>
+    <testcase classname="isDbReady should return false if mongoose is not connected to a db" name="isDbReady should return false if mongoose is not connected to a db" time="0">
+    </testcase>
+    <testcase classname="isDbReady should return false if objectId is not in list" name="isDbReady should return false if objectId is not in list" time="0">
+      <skipped/>
+    </testcase>
+  </testsuite>
+  <testsuite name="snsAuthenticator" errors="0" failures="0" skipped="0" timestamp="2022-01-18T07:59:50" time="0.931" tests="3">
+    <testcase classname="snsAuthenticator should set the user identity if the validation succeeds" name="snsAuthenticator should set the user identity if the validation succeeds" time="0.002">
+    </testcase>
+    <testcase classname="snsAuthenticator should respond with 401 if the message validation fails" name="snsAuthenticator should respond with 401 if the message validation fails" time="0.003">
+    </testcase>
+    <testcase classname="snsAuthenticator should skip the validation if the appropriate parameter is set" name="snsAuthenticator should skip the validation if the appropriate parameter is set" time="0">
+    </testcase>
+  </testsuite>
+</testsuites>

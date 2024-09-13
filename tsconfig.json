@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "module": "CommonJS",
+    "allowJs": true,
+    "checkJs": true,
+    "moduleResolution": "Node",
+    "outDir": "./build",
+    "resolveJsonModule": true,
+    "rootDir": "./src",
+    "target": "ES2020",
+    "noEmit": false,
+    "types": ["node", "jest", "express-serve-static-core"],
+    "sourceMap": true
+  },
+  "include": ["./src/**/*"],
+  "exclude": ["./node_modules/*"],
+  "typeAcquisition": {
+    "include": ["jest"]
+  }
+}
